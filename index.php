@@ -1,18 +1,24 @@
 <?php include'includes/header.php' ?>
 
-<?php  
+<?php
 
-$mysqli = new mysqli('localhost', 'root', '', 'tvshows') or die(mysqli_error($mysqli));
+$title = "";
+$network = "" ;
+$date = "";
+$description = "";
+$id = 0;
 
-if (isset($_POST['create'])){
-   
+$db = mysqli_connect('localhost', 'root', '', 'tvshows');
+
+if (isset($_POST['create'])) {
     $title = $_POST['title'];
     $network = $_POST['network'];
     $date = $_POST['date'];
     $description = $_POST['description'];
 
-     $mysqli->query("INSERT INTO `new` ( title, network, date, description) VALUES ('$title', '$network', '$date', '$description')")
-      or die($mysqli->error);
+    $query = "INSERT INTO new (title, network, date, description) VALUES ('$title', '$network', '$date', '$description')";
+    mysqli_query($db, $query);
+    header('location: index.php');
       
 }
 

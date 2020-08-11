@@ -14,7 +14,7 @@ if (isset($_POST['send'])){
       or die($mysqli->error);
 }
 ?>
-<section style="padding: 50px 60px; background-image:url('assets/images/stranger.jpg'); background-repeat:no repeat; height: 568.5px; background-size: 100% 100%; " >
+<section style="padding: 50px 60px; background-image:url('assets/images/stranger.jpg'); background-repeat:no repeat; height: 629px; background-size: 100% 100%; " >
 <section>
 <div class="container ">
 <div class="row justify-content-center">

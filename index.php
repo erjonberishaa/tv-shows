@@ -19,7 +19,7 @@ if (isset($_POST['send'])){
 <div class="container ">
 <div class="row">
             <div class="text-center">
-            <h1>Add a New Show</h1>
+            <h1>Add a New TV Show</h1>
             </div>
 </div>
 </div>
@@ -49,7 +49,7 @@ if (isset($_POST['send'])){
   <div class="form-row">
   <div class="form-group">
   </div>
-  <button type="create" name="send" class="btn btn-primary">Create </button>
+  <button type="create" name="send" class="btn btn-primary" href="show.php">Create </button>
 </form>
         </div>
     </div>

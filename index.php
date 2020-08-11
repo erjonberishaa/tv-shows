@@ -14,42 +14,44 @@ if (isset($_POST['send'])){
       or die($mysqli->error);
 }
 ?>
-
-<section class="bg-light ">
+<section style="padding: 50px 60px; background-image:url('assets/images/stranger.jpg'); background-repeat:no repeat; height: 568.5px; background-size: 100% 100%; " >
+<section>
 <div class="container ">
+<div class="row justify-content-center">
 <div class="row">
-            <div class="text-center">
-            <h1>Add a New TV Show</h1>
+            <div class="text-center text-light">
+            <h1 style="text-shadow: 2px 2px 5px red">Add a New TV Show</h1>
             </div>
 </div>
 </div>
 </section>
-<section style="padding: 60px 60px; " class="bg-light">
+
+<section style="color: white;">
     <div class="container">
         <div class="row">
     <form action="index.php" method="POST">
     <div class="form-group">
-    <label for="title">Titte</label>
+    <label for="title" style="text-shadow: 2px 2px 5px red";>Title</label>
     <input type="text" class="form-control" name="title" >
   </div>
   <div class="form-row">
     <div class="form-group col">
-      <label for="inputEmail4">Network</label>
+      <label for="inputEmail4" style="text-shadow: 2px 2px 5px red">Network</label>
       <input type="text" class="form-control" name="vendi" >
     </div>
     <div class="form-group col">
-      <label for="inputPassword4">Release Data</label>
+      <label for="inputPassword4" style="text-shadow: 2px 2px 5px red">Release Data</label>
       <input type="date" class="form-control" name="date">
     </div>
   </div>
   <div class="form-group">
-    <label for="inputAddress2">Description </label>
+    <label for="inputAddress2" style="text-shadow: 2px 2px 5px red">Description </label>
     <textarea type="text" class="form-control" name="description"></textarea>
   </div>
   <div class="form-row">
   <div class="form-group">
   </div>
-  <button type="create" name="send" class="btn btn-primary" href="show.php">Create </button>
+  <button type="create" name="send" class="btn btn-primary" >Create </button>
 </form>
         </div>
     </div>

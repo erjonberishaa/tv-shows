@@ -14,7 +14,7 @@
 </div>
 </div>
 </section>
-<section style="padding: 60px 60px; " class="bg-light">
+<section class="bg-light">
     <div class="container">
         <div class="row">
     <form action="index.php" method="POST">
@@ -39,7 +39,7 @@
   <div class="form-row">
   <div class="form-group">
   </div>
-  <button type="create" name="send" href class="btn btn-primary"> Update </button>
+  <button type="create" name="update" href class="btn btn-primary"> Update </button>
 </form>
         </div>
     </div>

@@ -95,35 +95,35 @@ a:hover {
     background-size: cover;
 }
 .pb {
-    background: url("assets/images/cover2.jpg");
+    background: url("assets/images/cover3.jpg");
     background-size: cover;
 }
 .got {
-    background: url("assets/images/cover2.jpg");
+    background: url("assets/images/cover4.jpg");
     background-size: cover;
 }
 .vikings {
-    background: url("assets/images/cover2.jpg");
+    background: url("assets/images/cover5.jpg");
     background-size: cover;
 }
 .friends {
-    background: url("assets/images/cover2.jpg");
+    background: url("assets/images/cover6.jpg");
     background-size: cover;
 }
 .dark {
-    background: url("assets/images/cover2.jpg");
+    background: url("assets/images/cover7.jpg");
     background-size: cover;
 }
 .narcos {
-    background: url("assets/images/cover2.jpg");
+    background: url("assets/images/cover8.jpg");
     background-size: cover;
 }
 .saul {
-    background: url("assets/images/cover2.jpg");
+    background: url("assets/images/cover9.jpg");
     background-size: cover;
 }
 .sopranos {
-    background: url("assets/images/cover2.jpg");
+    background: url("assets/images/cover10.jpg");
     background-size: cover;
 }
  

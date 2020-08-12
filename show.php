@@ -12,9 +12,17 @@ if(isset($_GET['show'])){
 ?>
 
 <section>
-<div class="container">
+<section style="padding: 50px 60px; background-image:url('assets/images/simpsons.jpg'); background-repeat:no repeat; height: 629px; background-size: 100% 100%; " >
+
+<div style="color:white;"class="container">
+
+<div class="go-back">
 <?php
+$url = htmlspecialchars($_SERVER['HTTP_REFERER']);
+echo "<a href='$url'> &laquo Go back </a>"; 
 while ($row = $result->fetch_assoc()): ?>
+</div>
+
 <div>
 <h2>TV SHOW</h2>
 </div>

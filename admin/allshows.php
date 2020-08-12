@@ -1,4 +1,5 @@
 <?php include'includes/header.php' ?>
+<?php include'includes/topnav.php'?>
 
 <?php 
 $mysqli = new mysqli('localhost', 'root', '', 'seriale' ) or die(mysqli_error($mysqli));

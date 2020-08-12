@@ -14,10 +14,13 @@ if (isset($_POST['send'])){
       or die($mysqli->error);
 }
 ?>
-<section style="padding: 50px 60px; background-image:url('assets/images/stranger.jpg'); background-repeat:no repeat; height: 629px; background-size: 100% 100%; " >
+<section style="padding: 50px 60px; background-image:url('stranger.jpg'); background-repeat:no repeat; height: 629px; background-size: 100% 100%; " >
 <section>
+
 <div class="container ">
+
 <div class="row justify-content-center">
+
 <div class="row">
             <div class="text-center text-light">
             <h1 style="text-shadow: 2px 2px 5px red">Add a New TV Show</h1>
@@ -48,7 +51,7 @@ if (isset($_POST['send'])){
     <label for="inputAddress2" style="text-shadow: 2px 2px 5px red">Description </label>
     <textarea type="text" class="form-control" name="description"></textarea>
   </div>
-  <div class="form-row">
+  <div style="padding-left: 5px;" class="form-row">
   <div class="form-group">
   </div>
   <button type="create" name="send" class="btn btn-primary" >Create </button>

@@ -97,6 +97,7 @@ a:hover {
 .pb {
     background: url("assets/images/cover3.jpg");
     background-size: cover;
+    href:
 }
 .got {
     background: url("assets/images/cover4.jpg");
@@ -257,10 +258,7 @@ a:hover {
     <h2> TV SHOW SUGGESTIONS</h2>
     </div>
                 <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 movie_list">
-                    <div class="pt-8 pb-2 mb-3 ">
-
-
-                    
+                    <div class="pt-8 pb-2 mb-3 ">                   
  
                         <div class="row">
  
@@ -273,7 +271,7 @@ a:hover {
  
                                 <div class="card-movie-content">
                                     <div class="card-movie-content-head">
-                                        <a href="#">
+                                        <a href="https://www.amc.com/shows/breaking-bad--18">
                                             <h3 class="card-movie-title">Breaking Bad</h3>
                                         </a>
                                         <div class="ratings"><span>9.5</span>/10</div>
@@ -301,7 +299,7 @@ a:hover {
  
                                 <div class="card-movie-content">
                                     <div class="card-movie-content-head">
-                                        <a href="#">
+                                        <a href="https://www.netflix.com/bg/title/80192098">
                                             <h3 class="card-movie-title">La Casa de Papel</h3>
                                         </a>
                                         <div class="ratings"><span>8.4</span>/10</div>
@@ -329,7 +327,7 @@ a:hover {
  
                                 <div class="card-movie-content">
                                     <div class="card-movie-content-head">
-                                        <a href="#">
+                                        <a href="https://peakyblinders.tv/">
                                             <h3 class="card-movie-title">Peaky Blinders</h3>
                                         </a>
                                         <div class="ratings"><span>8.8</span>/10</div>
@@ -385,7 +383,7 @@ a:hover {
  
                                 <div class="card-movie-content">
                                     <div class="card-movie-content-head">
-                                        <a href="#">
+                                        <a href="https://www.history.com/shows/vikings">
                                             <h3 class="card-movie-title">Vikings</h3>
                                         </a>
                                         <div class="ratings"><span>8.5</span>/10</div>
@@ -413,7 +411,7 @@ a:hover {
  
                                 <div class="card-movie-content">
                                     <div class="card-movie-content-head">
-                                        <a href="#">
+                                        <a href="https://www.warnerbros.com/tv/friends">
                                             <h3 class="card-movie-title">Friends</h3>
                                         </a>
                                         <div class="ratings"><span>8.9</span>/10</div>
@@ -441,7 +439,7 @@ a:hover {
  
                                 <div class="card-movie-content">
                                     <div class="card-movie-content-head">
-                                        <a href="#">
+                                        <a href="https://dark.netflix.io/en">
                                             <h3 class="card-movie-title">Dark</h3>
                                         </a>
                                         <div class="ratings"><span>8.8</span>/10</div>
@@ -469,7 +467,7 @@ a:hover {
  
                                 <div class="card-movie-content">
                                     <div class="card-movie-content-head">
-                                        <a href="#">
+                                        <a href="bbc.co.uk/programmes/b018ttws">
                                             <h3 class="card-movie-title">Sherlock</h3>
                                         </a>
                                         <div class="ratings"><span>9.1</span>/10</div>
@@ -497,7 +495,7 @@ a:hover {
  
                                 <div class="card-movie-content">
                                     <div class="card-movie-content-head">
-                                        <a href="#">
+                                        <a href="https://www.amc.com/shows/better-call-saul--16">
                                             <h3 class="card-movie-title">Better Call Saul</h3>
                                         </a>
                                         <div class="ratings"><span>8.7</span>/10</div>

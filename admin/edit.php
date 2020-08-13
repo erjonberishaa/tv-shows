@@ -31,7 +31,7 @@
       <input type="text" class="form-control" name="vendi" >
     </div>
     <div class="form-group col">
-      <label for="inputPassword4" style="text-shadow: 2px 2px 5px blue";>Release Data</label>
+      <label for="inputPassword4" style="text-shadow: 2px 2px 5px blue";>Release Date</label>
       <input type="date" class="form-control" name="date">
     </div>
   </div>

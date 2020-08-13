@@ -10,9 +10,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
-<body >
+<body>
 <nav class="navbar navbar-expand-md bg-info navbar-dark ">
-  <ul style="margin-left:130px;" class="navbar-nav">
+  <ul style="margin-left:210px;" class="navbar-nav">
   <a href="home.php" class="navbar-brand">
     <img src="assets/images/tv.png" width="45" alt="" class="d-inline-block align-middle mr-2">
   </a>
@@ -29,8 +29,6 @@
       </div>
   </ul>
 </nav>
- 
-
 
 </body>
 </html>

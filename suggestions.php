@@ -1,3 +1,6 @@
+<?php include'includes/navbar.php' ?>
+<?php include'includes/header.php' ?>
+
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -5,9 +8,8 @@
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
 <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600&display=swap" rel="stylesheet">
-<link rel='stylesheet' href='style.css'>
-</head>
- 
+<link rel="stylesheet" href="style.css">
+</head> 
 
 <style>
 
@@ -25,8 +27,6 @@ body {
     -webkit-transition: 300ms;
     transition: 300ms;
 }
- 
-
  
 h1,
 h2,
@@ -114,8 +114,8 @@ a:hover {
     background: url("assets/images/cover7.jpg");
     background-size: cover;
 }
-.narcos {
-    background: url("assets/images/cover8.jpg");
+.sherlock {
+    background: url("assets/images/coveri.jpg");
     background-size: cover;
 }
 .saul {
@@ -237,19 +237,34 @@ a:hover {
 
 </style>
 
-<body> 
-    <div class="container p-0">
- 
-                <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 movie_list">
-                    <div class="pt-8 pb-2 mb-3 border-bottom">
+<body>
+    
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' >
 
+    <div class="container p-0">
+ <!-- <div class="container text-center">
+                    <div class="header">
                         <div class="row">
-                            <h1 style="padding-left:200px;"> TV SHOW SUGGESTIONS</h1>
-                        </div>
+                            <h1> TV SHOW SUGGESTIONS</h1>
+                        </div> -->
+
+                       
+
+
+
+<section  class="p-1" style="background-color: #4e94a4;">
+    <div class="titleNetflix1 p-3">
+    <h2> TV SHOW SUGGESTIONS</h2>
+    </div>
+                <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 movie_list">
+                    <div class="pt-8 pb-2 mb-3 ">
+
+
+                    
  
                         <div class="row">
  
-                            <!-- Movie Card Start -->
+                            <!-- Breaking Bad -->
                             <div class="card-view">
                                 <div class="card-header breakingbad">
                                     <div class="card-header-icon">
@@ -261,27 +276,23 @@ a:hover {
                                         <a href="#">
                                             <h3 class="card-movie-title">Breaking Bad</h3>
                                         </a>
-                                        <div class="ratings"><span>8.8</span>/10</div>
+                                        <div class="ratings"><span>9.5</span>/10</div>
                                     </div>
                                     <div class="card-movie-info">
                                         <div class="movie-running-time">
-                                            <label>Date Released</label>
+                                            <label style="color:black;">Date Released</label>
                                             <span>20.01.2008</span>
                                         </div>
                                         <div class="movie-running-time">
-                                            <label>Number of episodes</label>
+                                            <label style="color:black;">Number of episodes</label>
                                             <span>63</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Movie Card End -->
- 
-                            
+                            <!-- Breaking Bad -->
 
-
-
-                            <!-- Movie Card Start -->
+                            <!-- LCDP -->
                             <div class="card-view">
                                 <div class="card-header lcdp">
                                     <div class="card-header-icon">
@@ -293,26 +304,23 @@ a:hover {
                                         <a href="#">
                                             <h3 class="card-movie-title">La Casa de Papel</h3>
                                         </a>
-                                        <div class="ratings"><span>8.8</span>/10</div>
+                                        <div class="ratings"><span>8.4</span>/10</div>
                                     </div>
                                     <div class="card-movie-info">
                                         <div class="movie-running-time">
-                                            <label>Date Released</label>
-                                            <span>20.01.2008</span>
+                                            <label style="color:black;">Date Released</label>
+                                            <span>02.05.2017</span>
                                         </div>
                                         <div class="movie-running-time">
-                                            <label>Number of episodes</label>
-                                            <span>63</span>
+                                            <label style="color:black;">Number of episodes</label>
+                                            <span>32</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Movie Card End -->
+                            <!-- LCDP -->
 
-
-
-
-                            <!-- Movie Card Start -->
+                            <!-- Peaky Blinders -->
                             <div class="card-view">
                                 <div class="card-header pb">
                                     <div class="card-header-icon">
@@ -328,23 +336,19 @@ a:hover {
                                     </div>
                                     <div class="card-movie-info">
                                         <div class="movie-running-time">
-                                            <label>Date Released</label>
-                                            <span>20.01.2008</span>
+                                            <label style="color:black;" >Date Released</label>
+                                            <span>12.09.2013</span>
                                         </div>
                                         <div class="movie-running-time">
-                                            <label>Number of episodes</label>
-                                            <span>63</span>
+                                            <label style="color:black;">Number of episodes</label>
+                                            <span>37</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Movie Card End -->
+                            <!-- Peaky Blinders -->
 
-
-
-
-
-                            <!-- Movie Card Start -->
+                            <!-- Game of Thrones -->
                             <div class="card-view">
                                 <div class="card-header got">
                                     <div class="card-header-icon">
@@ -356,27 +360,23 @@ a:hover {
                                         <a href="#">
                                             <h3 class="card-movie-title">Game of Thrones</h3>
                                         </a>
-                                        <div class="ratings"><span>8.8</span>/10</div>
+                                        <div class="ratings"><span>9.3</span>/10</div>
                                     </div>
                                     <div class="card-movie-info">
                                         <div class="movie-running-time">
-                                            <label>Date Released</label>
-                                            <span>20.01.2008</span>
+                                            <label style="color:black;">Date Released</label>
+                                            <span>17.04.2011</span>
                                         </div>
                                         <div class="movie-running-time">
-                                            <label>Number of episodes</label>
-                                            <span>63</span>
+                                            <label style="color:black;">Number of episodes</label>
+                                            <span>73</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Movie Card End -->
+                            <!-- Game of Thrones -->
 
-
-
-
-
-                            <!-- Movie Card Start -->
+                            <!-- Vikings -->
                             <div class="card-view">
                                 <div class="card-header vikings">
                                     <div class="card-header-icon">
@@ -388,24 +388,23 @@ a:hover {
                                         <a href="#">
                                             <h3 class="card-movie-title">Vikings</h3>
                                         </a>
-                                        <div class="ratings"><span>8.8</span>/10</div>
+                                        <div class="ratings"><span>8.5</span>/10</div>
                                     </div>
                                     <div class="card-movie-info">
                                         <div class="movie-running-time">
-                                            <label>Date Released</label>
-                                            <span>20.01.2008</span>
+                                            <label style="color:black;">Date Released</label>
+                                            <span>03.03.2013</span>
                                         </div>
                                         <div class="movie-running-time">
-                                            <label>Number of episodes</label>
-                                            <span>63</span>
+                                            <label style="color:black;">Number of episodes</label>
+                                            <span>93</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Movie Card End -->
+                            <!-- Vikings -->
 
-
-                            <!-- Movie Card Start -->
+                            <!-- Friends -->
                             <div class="card-view">
                                 <div class="card-header friends">
                                     <div class="card-header-icon">
@@ -417,24 +416,23 @@ a:hover {
                                         <a href="#">
                                             <h3 class="card-movie-title">Friends</h3>
                                         </a>
-                                        <div class="ratings"><span>8.8</span>/10</div>
+                                        <div class="ratings"><span>8.9</span>/10</div>
                                     </div>
                                     <div class="card-movie-info">
                                         <div class="movie-running-time">
-                                            <label>Date Released</label>
-                                            <span>20.01.2008</span>
+                                            <label style="color:black;">Date Released</label>
+                                            <span>22.09.1994</span>
                                         </div>
                                         <div class="movie-running-time">
-                                            <label>Number of episodes</label>
-                                            <span>63</span>
+                                            <label style="color:black;">Number of episodes</label>
+                                            <span>235</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Movie Card End -->
+                            <!-- Friends -->
 
-
-                            <!-- Movie Card Start -->
+                            <!-- Dark -->
                             <div class="card-view">
                                 <div class="card-header dark">
                                     <div class="card-header-icon">
@@ -450,23 +448,21 @@ a:hover {
                                     </div>
                                     <div class="card-movie-info">
                                         <div class="movie-running-time">
-                                            <label>Date Released</label>
-                                            <span>20.01.2008</span>
+                                            <label style="color:black;">Date Released</label>
+                                            <span>01.12.2017</span>
                                         </div>
                                         <div class="movie-running-time">
-                                            <label>Number of episodes</label>
-                                            <span>63</span>
+                                            <label style="color:black;">Number of episodes</label>
+                                            <span>26</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Movie Card End -->
+                            <!-- Dark -->
 
-
-
-                            <!-- Movie Card Start -->
+                            <!-- Sherlock -->
                             <div class="card-view">
-                                <div class="card-header narcos">
+                                <div class="card-header sherlock">
                                     <div class="card-header-icon">
                                     </div>
                                 </div>
@@ -474,26 +470,25 @@ a:hover {
                                 <div class="card-movie-content">
                                     <div class="card-movie-content-head">
                                         <a href="#">
-                                            <h3 class="card-movie-title">Narcos</h3>
+                                            <h3 class="card-movie-title">Sherlock</h3>
                                         </a>
-                                        <div class="ratings"><span>8.8</span>/10</div>
+                                        <div class="ratings"><span>9.1</span>/10</div>
                                     </div>
                                     <div class="card-movie-info">
                                         <div class="movie-running-time">
-                                            <label>Date Released</label>
-                                            <span>20.01.2008</span>
+                                            <label style="color:black;">Date Released</label>
+                                            <span>25.07.2017</span>
                                         </div>
                                         <div class="movie-running-time">
-                                            <label>Number of episodes</label>
-                                            <span>63</span>
+                                            <label style="color:black;">Number of episodes</label>
+                                            <span>13</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Movie Card End -->
+                            <!--Sherlock -->
 
-
-                            <!-- Movie Card Start -->
+                            <!-- Better Call Saul -->
                             <div class="card-view">
                                 <div class="card-header saul">
                                     <div class="card-header-icon">
@@ -505,24 +500,23 @@ a:hover {
                                         <a href="#">
                                             <h3 class="card-movie-title">Better Call Saul</h3>
                                         </a>
-                                        <div class="ratings"><span>8.8</span>/10</div>
+                                        <div class="ratings"><span>8.7</span>/10</div>
                                     </div>
                                     <div class="card-movie-info">
                                         <div class="movie-running-time">
-                                            <label>Date Released</label>
-                                            <span>20.01.2008</span>
+                                            <label style="color:black;">Date Released</label>
+                                            <span>08.02.2015</span>
                                         </div>
                                         <div class="movie-running-time">
-                                            <label>Number of episodes</label>
+                                            <label style="color:black;">Number of episodes</label>
                                             <span>63</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Movie Card End -->
+                            <!-- Better Call Saul -->
 
-
-                            <!-- Movie Card Start -->
+                            <!-- The Sopranos -->
                             <div class="card-view">
                                 <div class="card-header sopranos">
                                     <div class="card-header-icon">
@@ -534,30 +528,21 @@ a:hover {
                                         <a href="#">
                                             <h3 class="card-movie-title">The Sopranos</h3>
                                         </a>
-                                        <div class="ratings"><span>8.8</span>/10</div>
+                                        <div class="ratings"><span>9.2</span>/10</div>
                                     </div>
                                     <div class="card-movie-info">
                                         <div class="movie-running-time">
-                                            <label>Date Released</label>
-                                            <span>20.01.2008</span>
+                                            <label style="color:black;">Date Released</label>
+                                            <span>10.01.1999</span>
                                         </div>
                                         <div class="movie-running-time">
-                                            <label>Number of episodes</label>
-                                            <span>63</span>
+                                            <label style="color:black;">Number of episodes</label>
+                                            <span>9.2</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Movie Card End -->
-
-
-
-
-
-
-
-
-                            
+                            <!-- The Sopranos -->                           
                              
                         </div>
                     </div>
@@ -567,6 +552,5 @@ a:hover {
         </div>
  
     </div>
-</body>
- 
+</body> 
 </html>

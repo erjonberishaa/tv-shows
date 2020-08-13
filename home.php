@@ -1,5 +1,5 @@
-
 <?php include'includes/header.php' ?>
+<?php include'includes/navbar.php' ?>
 
 <?php 
 $mysqli = new mysqli('localhost', 'root', '', 'seriale' ) or die(mysqli_error($mysqli));
@@ -16,19 +16,24 @@ function pre_r( $array ) {
 
 ?>
 
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 
-<section  class="p-1" style="background-color:#435E7D;">
-    <div>
-        <h2 class="text-light text-bold p-3 text-center">Best Tv Shows</h2>
+<link rel="stylesheet" href="style.css">
+
+<section class="p-1" style="background-color: #4e94a4;">
+    <div class="titleNetflix">
+      <h6 >NETFLIX & CHILL</h6>
     </div>
     <div class="container  p-5">
     <div class="row ">
-    <?php while ($row = $result->fetch_assoc()): ?>  
+    <?php while ($row = $result->fetch_assoc()): ?> 
+      
+      
     <!-- Card -->
-<div style="background:#C3D8F0;" class="card card-cascade wider  col-md-3 m-2  ">
+<div style="background: #B0E0E6;" class="card card-cascade wider col-md-3 m-2">
 <!-- Card image -->
 <div class="view view-cascade overlay" >
-  <img class="card-img-top " src="assets/images/simpsons.jpg"
+  <img class="card-img-top" src="assets/images/netflix.jpg"
     alt="Card image cap">
   <a href="#!">
     <div class="mask rgba-white-slight"></div>
@@ -42,12 +47,12 @@ function pre_r( $array ) {
   <h4 class="card-title"><strong><?php echo $row['title']; ?></strong></h4>
   <!-- Text -->
   <p class="card-text"> <?php echo $row['description']; ?></p>
-  <button class="btn btn-primar"><a href="show.php?show=<?php echo $row['id']; ?>"
-                    class="btn btn-light">Show</a></button>
+  <button class="btn btn-primar"><a href="showuser.php?show=<?php echo $row['id']; ?>"
+  class="btn btn-light">Show</a></button>
 </div>
 </div>
 <?php endwhile ?>
 <!-- Card -->
 </div>
-    </div>
-    </section>
+</div>
+</section>

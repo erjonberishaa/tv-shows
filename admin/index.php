@@ -56,7 +56,7 @@ if (isset($_POST['send'])){
   </div>
   <button type="create" name="send" class="btn btn-primary" >Create </button>
 </form>
-        </div>
+        </div>        
     </div>
 </section>
 

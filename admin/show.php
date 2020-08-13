@@ -12,7 +12,7 @@ if(isset($_GET['show'])){
 ?>
 
 <section>
-<section style="padding: 50px 60px; background-image:url('assets/images/simpsons.jpg'); background-repeat:no repeat; height: 629px; background-size: 100% 100%; " >
+<section style="padding: 50px 60px; background-image:url('simpsons.jpg'); background-repeat:no repeat; height: 629px; background-size: 100% 100%; " >
 
 <div style="color:white;"class="container">
 

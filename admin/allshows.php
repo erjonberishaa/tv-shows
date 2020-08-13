@@ -75,8 +75,8 @@ function pre_r( $array ) {
     <?php endwhile ?>
     
 </table>
-<div>
-<button class="btn btn-primary"><a class="text-light" href="index.php">ADD A NEW TV SHOW&raquo;</a></button>
+<div style="margin-bottom: 25px;">
+<button class="btn btn-primary"><a class="text-light" href="index.php">Add a new TV Show&raquo;</a></button>
 </div>
 </div>
 </div>

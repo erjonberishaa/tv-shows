@@ -20,6 +20,9 @@ function pre_r( $array ) {
 
 <link rel="stylesheet" href="style.css">
 
+
+
+
 <section class="p-1" style="background-color: #4e94a4;">
     <div class="titleNetflix">
       <h6 >NETFLIX & CHILL</h6>

@@ -15,8 +15,6 @@ if(isset($_GET['delete'])){
     header('location:allshows.php');
 }
 
-
-
 function pre_r( $array ) {
     echo '<pre>';
     print_r($array);
@@ -25,24 +23,24 @@ function pre_r( $array ) {
 
 ?>
 
-<section style="background-color: #FAF0E6;">
+<section style="background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);";
+>
 
 <div class="col-md-12 ">
 <div class="row justify-content-center">
 <div class="header">
-    <h2 style="margin-top: 25px; text-shadow: 2px 2px 5px #696969;"> ALL TV SHOWS </h2>
+    <h2 style="margin-top: 25px; font-size:45px; letter-spacing: 4px; text-shadow: 2px 2px 5px white;"> ALL TV SHOWS </h2>
 </div>
 </div>
 </div>
-
-
 
 <section class=" ">
 <div class="container">
 <div class="row">
 <table style="margin-top: 25px; margin-bottom:25px;" class="table table-bordered">
     <thead>
-        <tr style="background-color:#A9A9A9;">
+        <tr style="background-color:#4e94a4;">
             <th>ID</id>
             <th>Emri i Serialit</th>
             <th>Prodhuesi</th>
@@ -60,8 +58,6 @@ function pre_r( $array ) {
             <td><?php echo $row['vendi']; ?></td>
             <td><?php echo $row['date']; ?></td>
             <td><?php echo $row['description']; ?></td>
-   
-
     <td>
     <a href="allshows.php?delete= <?php echo $row['id']; ?>"
         class="btn btn-danger">Delete</a>
@@ -73,7 +69,7 @@ function pre_r( $array ) {
         class="btn btn-primary">Edit</a>
     </td>    
     <?php endwhile ?>
-    
+
 </table>
 <div style="margin-bottom: 25px;">
 <button class="btn btn-primary"><a class="text-light" href="index.php">Add a new TV Show&raquo;</a></button>

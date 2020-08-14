@@ -23,8 +23,8 @@ echo "<a href='$url'> &laquo Go back </a>";
 while ($row = $result->fetch_assoc()): ?>
 </div>
 
-<div>
-<h2>TV SHOW</h2>
+<div class="row justify-content-center">
+<h2 style="font-size:45px; letter-spacing: 4px; text-shadow: 2px 2px 5px blue;">TV SHOW</h2>
 </div>
         <tr>
             <h3>ID: <?php echo $row['id']; ?></h3>

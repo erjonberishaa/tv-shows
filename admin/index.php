@@ -10,8 +10,31 @@ if (isset($_POST['send'])){
     $date = $_POST['date'];
     $description = $_POST['description'];
 
-     $mysqli->query("INSERT INTO `shows` (title, vendi, date, description) VALUES ('$title', '$vend', '$date', '$description')")
-      or die($mysqli->error);
+    $name = $_FILES['file']['name'];
+    $target_dir = "./uploads/";
+    $target_file = $target_dir . basename($_FILES["file"]["name"]);
+
+  
+    // Select file type
+    $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+  
+    // Valid file extensions
+    $extensions_arr = array("jpg","jpeg","png","gif");
+  
+    // Check extension
+    if( in_array($imageFileType,$extensions_arr) ){
+
+       // Upload file
+       move_uploaded_file($_FILES['file']['tmp_name'],$target_dir.$name);}
+
+
+    $mysqli->query("INSERT INTO `shows` (title, vendi, date, description, image) VALUES ('$title', '$vend', '$date', '$description', '$name')");
+      // if(mysqli_query($mysqli->query)){
+      //  echo "poban";
+      // }
+     
+     // header ('location:index.php');
+
 }
 ?>
 <section style="padding: 50px 60px; background-image:url('stranger.jpg'); background-repeat:no repeat; height: 629px; background-size: 100% 100%; " >
@@ -32,7 +55,7 @@ if (isset($_POST['send'])){
 <section style="color: white;">
     <div class="container">
         <div class="row">
-    <form action="index.php" method="POST">
+    <form action="index.php" method="POST" enctype="multipart/form-data">
     <div class="form-group">
     <label for="title" style="text-shadow: 2px 2px 5px red";>Title</label>
     <input type="text" class="form-control" name="title" >
@@ -51,6 +74,10 @@ if (isset($_POST['send'])){
     <label for="inputAddress2" style="text-shadow: 2px 2px 5px red">Description </label>
     <textarea type="text" class="form-control" name="description"></textarea>
   </div>
+  <div class="form-group text-light col">
+      <label for="image">Choose image</label>
+      <input type="file" class="form-control" name="file" id="image">
+    </div>
   <div style="padding-left: 5px;" class="form-row">
   <div class="form-group">
   </div>

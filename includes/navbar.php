@@ -23,10 +23,17 @@
   </a>
 
   <a href="suggestions.php" class="navbar-brand">
-    <span class="text-uppercase font-weight-bold">Suggestions</span>
-    
+    <span class="text-uppercase font-weight-bold">Suggestions</span>    
       </a>
+     
+
+      <a href="quotes.php" class="navbar-brand">
+    <span class="text-uppercase font-weight-bold">Quotes</span>    
+      </a> 
       </div>
+      </div>
+
+
   </ul>
 </nav>
 

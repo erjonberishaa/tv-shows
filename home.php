@@ -20,12 +20,9 @@ function pre_r( $array ) {
 
 <link rel="stylesheet" href="style.css">
 
-
-
-
 <section class="p-1" style="background-color: #4e94a4;">
     <div class="titleNetflix">
-      <h6 >NETFLIX & CHILL</h6>
+      <h6 >NETFLIX DEMO</h6>
     </div>
     <div class="container fluid">
     <div class="row "style="display:flex; justify-content:center;">
@@ -35,8 +32,8 @@ function pre_r( $array ) {
 <div style="background:#F5DEB3" class="card card-cascade wider col-md-3 m-2 p-2">
 <!-- Card image -->
 <div class="view view-cascade overlay" >
-  <img class="card-img-top" src="assets/images/netflix.jpg"
-    alt="Card image cap">
+  <img class="card-img-top"  src="./admin/uploads/<?php  echo $row['image']; ?>"
+    alt="Card image cap" style="width:100%; height:250px; object-fit:cover;">
   <a href="#!">
     <div class="mask rgba-white-slight"></div>
   </a>

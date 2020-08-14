@@ -12,13 +12,6 @@
   <div class='row'>
     <div class='col-md-offset-2 col-md-8'>
       <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-        <!-- Bottom Carousel Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#quote-carousel" data-slide-to="1"></li>
-          <li data-target="#quote-carousel" data-slide-to="2"></li>
-        </ol>
-        
         <!-- Carousel Slides / Quotes -->
         <div class="carousel-inner">
         
@@ -27,49 +20,156 @@
             <blockquote>
               <div class="row">
                 <div class="col-sm-3 text-center">
-                  <img class="img-circle" src="" style="width: 100px;height:100px;">
-                  <!--<img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" style="width: 100px;height:100px;">-->
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/elle1312.jpg');">
                 </div>
                 <div class="col-sm-9">
-                  <p>Friends don't lie</p>
+                  <p style="font-size:25px; padding-top:3px;">Friends don't lie</p>
                   <small>-Stranger Things</small>
                 </div>
               </div>
             </blockquote>
           </div>
           <!-- Quote 2 -->
-          <div class="item">
+          <div class="item active">
             <blockquote>
               <div class="row">
                 <div class="col-sm-3 text-center">
-                  <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/mijustin/128.jpg" style="width: 100px;height:100px;">
+                  <img class="img-circle" style="width: 100px;height:100px; background-image:url('assets/images/elle1312.jpg');">
                 </div>
                 <div class="col-sm-9">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
-                  <small>Someone famous</small>
+                  <p>The only time man can be brave is when he's afraid</p>
+                  <small>-Game of Thrones (Ned Stark)</small>
                 </div>
               </div>
             </blockquote>
           </div>
           <!-- Quote 3 -->
-          <div class="item">
+          <div class="item active">
             <blockquote>
               <div class="row">
                 <div class="col-sm-3 text-center">
-                  <img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/keizgoesboom/128.jpg" style="width: 100px;height:100px;">
+                  <img class="img-circle" style="width: 100px;height:100px; background-image:url('assets/images/elle1312.jpg');">
                 </div>
                 <div class="col-sm-9">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
-                  <small>Someone famous</small>
+                  <p>There are two sides to every story, always.</p>
+                  <small>-Walter White (Breaking Bad)</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" style="width: 100px;height:100px; background-image:url('assets/images/elle1312.jpg');">
+                </div>
+                <div class="col-sm-9">
+                  <p>I don't have dreams, I have goals</p>
+                  <small>-Harvey Specter (Suits)</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" style="width: 100px;height:100px; background-image:url('assets/images/elle1312.jpg');">
+                </div>
+                <div class="col-sm-9">
+                  <p>Mornings are for coffee and contemplations</p>
+                  <small>-Chief Hopper (Stranger Things)</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" style="width: 100px;height:100px; background-image:url('assets/images/elle1312.jpg');">
+                </div>
+                <div class="col-sm-9">
+                  <p>Sometimes I'll start a sentence, and I don't even know where it's going. I just hope I find it along the way.</p>
+                  <small>-Michael Scott (The office)</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" style="width: 100px;height:100px; background-image:url('assets/images/elle1312.jpg');">
+                </div>
+                <div class="col-sm-9">
+                  <p>Sometimes we are what we are, and we should embrace that.</p>
+                  <small>-Lucifer</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" style="width: 100px;height:100px; background-image:url('assets/images/elle1312.jpg');">
+                </div>
+                <div class="col-sm-9">
+                  <p> Life is beautiful and terrible, all at the same time. But if we're only living part of it, then we're not living at all.</p>
+                  <small>-Sara Lance</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" style="width: 100px;height:100px; background-image:url('assets/images/elle1312.jpg');">
+                </div>
+                <div class="col-sm-9">
+                  <p>We’re all alone. That’s why we have friends. To make the loneliness easier to take</p>
+                  <small>-HollyGibney</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" style="width: 100px;height:100px; background-image:url('assets/images/elle1312.jpg');">
+                </div>
+                <div class="col-sm-9">
+                  <p>Whatever happens, keep moving. Get through it. Choose to live. ‘Cause even on the worst day, there are people who love you. </p>
+                  <small>-Clay Jensen (13 Reasons Why)</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" style="width: 100px;height:100px; background-image:url('assets/images/elle1312.jpg');">
+                </div>
+                <div class="col-sm-9">
+                  <p>You can play by the rules and still have fun.</p>
+                  <small>-Sidney</small>
                 </div>
               </div>
             </blockquote>
           </div>
         </div>
-        
-        <!-- Carousel Buttons Next/Prev -->
-        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
       </div>                          
     </div>
   </div>
@@ -179,4 +279,4 @@
         height: 20px;
     }
 }
-</style>
+</style> 

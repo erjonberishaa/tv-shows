@@ -3,10 +3,28 @@
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
+<div class="background" style="background-color: #4e94a4;">
 <div class="container">
-  <div class="row">
-    <div class='col-md-offset-2 col-md-8 text-center'>
-    <h2>Famous Quotes from TV Shows</h2>
+  <div class="row justify-content-center">
+    <div class>
+    <h2 style=" text-align: center;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 45px;
+    transform: skewY(0deg);
+    letter-spacing: 4px;
+    word-spacing: -7px;
+    color: tomato;
+    margin-top:20px;
+    text-shadow: 
+      -1px -1px 0 firebrick,
+      -2px -2px 0 firebrick,
+      -2px -3px 0 firebrick,
+      -3px -4px 0 firebrick,
+      -3px -5px 0 firebrick,
+      -4px -6px 0 firebrick,
+      -4px -7px 0 firebrick,
+      -5px -8px 0 firebrick,
+      -30px 20px 40px dimgrey">Famous Quotes from TV Shows</h2>
     </div>
   </div>
   <div class='row'>
@@ -14,31 +32,17 @@
       <div class="carousel slide" data-ride="carousel" id="quote-carousel">
         <!-- Carousel Slides / Quotes -->
         <div class="carousel-inner">
-        
-          <!-- Quote 1 -->
-          <div class="item active">
-            <blockquote>
-              <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/elle1312.jpg');">
-                </div>
-                <div class="col-sm-9">
-                  <p style="font-size:25px; padding-top:3px;">Friends don't lie</p>
-                  <small>-Stranger Things</small>
-                </div>
-              </div>
-            </blockquote>
-          </div>
+                
           <!-- Quote 2 -->
           <div class="item active">
             <blockquote>
-              <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" style="width: 100px;height:100px; background-image:url('assets/images/elle1312.jpg');">
+              <div class="row ">
+                <div class="col-sm-3 text-center p-3">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/nedstarki.jpg');">
                 </div>
-                <div class="col-sm-9">
-                  <p>The only time man can be brave is when he's afraid</p>
-                  <small>-Game of Thrones (Ned Stark)</small>
+                <div class="col-sm-9 p-3 ">
+                  <p style="font-size:25px; font-family: Montserrat; color:black">The only time man can be brave is when he's afraid.</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Game of Thrones (Ned Stark)</small>
                 </div>
               </div>
             </blockquote>
@@ -47,26 +51,12 @@
           <div class="item active">
             <blockquote>
               <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" style="width: 100px;height:100px; background-image:url('assets/images/elle1312.jpg');">
+                <div class="col-sm-3 text-center p-3">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/ww.jpg');">
                 </div>
-                <div class="col-sm-9">
-                  <p>There are two sides to every story, always.</p>
-                  <small>-Walter White (Breaking Bad)</small>
-                </div>
-              </div>
-            </blockquote>
-          </div>
-          <!-- Quote 2 -->
-          <div class="item active">
-            <blockquote>
-              <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" style="width: 100px;height:100px; background-image:url('assets/images/elle1312.jpg');">
-                </div>
-                <div class="col-sm-9">
-                  <p>I don't have dreams, I have goals</p>
-                  <small>-Harvey Specter (Suits)</small>
+                <div class="col-sm-9 p-3">
+                  <p style="font-size:25px; font-family: Montserrat; color:black;">There are two sides to every story, always.</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black;">-Walter White (Breaking Bad)</small>
                 </div>
               </div>
             </blockquote>
@@ -75,26 +65,12 @@
           <div class="item active">
             <blockquote>
               <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" style="width: 100px;height:100px; background-image:url('assets/images/elle1312.jpg');">
+                <div class="col-sm-3 text-center p-3">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/hs.jpg');">
                 </div>
-                <div class="col-sm-9">
-                  <p>Mornings are for coffee and contemplations</p>
-                  <small>-Chief Hopper (Stranger Things)</small>
-                </div>
-              </div>
-            </blockquote>
-          </div>
-          <!-- Quote 2 -->
-          <div class="item active">
-            <blockquote>
-              <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" style="width: 100px;height:100px; background-image:url('assets/images/elle1312.jpg');">
-                </div>
-                <div class="col-sm-9">
-                  <p>Sometimes I'll start a sentence, and I don't even know where it's going. I just hope I find it along the way.</p>
-                  <small>-Michael Scott (The office)</small>
+                <div class="col-sm-9 p-3">
+                  <p style="font-size:25px; font-family: Montserrat;color:black">I don't have dreams, I have goals.</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Harvey Specter (Suits)</small>
                 </div>
               </div>
             </blockquote>
@@ -103,26 +79,12 @@
           <div class="item active">
             <blockquote>
               <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" style="width: 100px;height:100px; background-image:url('assets/images/elle1312.jpg');">
+                <div class="col-sm-3 text-center p-3">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/ch.jpg');">
                 </div>
-                <div class="col-sm-9">
-                  <p>Sometimes we are what we are, and we should embrace that.</p>
-                  <small>-Lucifer</small>
-                </div>
-              </div>
-            </blockquote>
-          </div>
-          <!-- Quote 2 -->
-          <div class="item active">
-            <blockquote>
-              <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" style="width: 100px;height:100px; background-image:url('assets/images/elle1312.jpg');">
-                </div>
-                <div class="col-sm-9">
-                  <p> Life is beautiful and terrible, all at the same time. But if we're only living part of it, then we're not living at all.</p>
-                  <small>-Sara Lance</small>
+                <div class="col-sm-9 p-3">
+                  <p style="font-size:25px; font-family: Montserrat;color:black">Mornings are for coffee and contemplations.</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Chief Hopper (Stranger Things)</small>
                 </div>
               </div>
             </blockquote>
@@ -131,12 +93,40 @@
           <div class="item active">
             <blockquote>
               <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" style="width: 100px;height:100px; background-image:url('assets/images/elle1312.jpg');">
+                <div class="col-sm-3 text-center p-3">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/ms.jpg');">
                 </div>
-                <div class="col-sm-9">
-                  <p>We’re all alone. That’s why we have friends. To make the loneliness easier to take</p>
-                  <small>-HollyGibney</small>
+                <div class="col-sm-9 p-3">
+                  <p style="font-size:23px; font-family: Montserrat;color:black">Sometimes I'll start a sentence, and I don't even know where it's going. I just hope I find it along the way.</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Michael Scott (The office)</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>          
+          <!-- Quote 2 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center p-3">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/sl.jpg');">
+                </div>
+                <div class="col-sm-9 p-3">
+                  <p style="font-size:25px; font-family: Montserrat;color:black"> Life is beautiful and terrible, all at the same time. But if we're only living part of it, then we're not living at all.</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Sara Lance</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 1 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center p-3">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/ellie.jpg');">
+                </div>
+                <div class="col-sm-9 p-3">
+                  <p style="font-size:25px; font-family: Montserrat;color:black">Every song ends, but is that any reason not to enjoy the music.</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Ellie (One Tree Hill)</small>
                 </div>
               </div>
             </blockquote>
@@ -145,12 +135,12 @@
           <div class="item active">
             <blockquote>
               <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" style="width: 100px;height:100px; background-image:url('assets/images/elle1312.jpg');">
+                <div class="col-sm-3 text-center p-3">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/hg.jpg');">
                 </div>
-                <div class="col-sm-9">
-                  <p>Whatever happens, keep moving. Get through it. Choose to live. ‘Cause even on the worst day, there are people who love you. </p>
-                  <small>-Clay Jensen (13 Reasons Why)</small>
+                <div class="col-sm-9 p-3">
+                  <p style="font-size:25px; font-family: Montserrat;color:black">We’re all alone. That’s why we have friends. To make the loneliness easier to take.</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-HollyGibney</small>
                 </div>
               </div>
             </blockquote>
@@ -159,12 +149,54 @@
           <div class="item active">
             <blockquote>
               <div class="row">
-                <div class="col-sm-3 text-center">
-                  <img class="img-circle" style="width: 100px;height:100px; background-image:url('assets/images/elle1312.jpg');">
+                <div class="col-sm-3 text-center p-3">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/cj.jpg');">
                 </div>
-                <div class="col-sm-9">
-                  <p>You can play by the rules and still have fun.</p>
-                  <small>-Sidney</small>
+                <div class="col-sm-9 p-3">
+                  <p style="font-size:25px; font-family: Montserrat;color:black">Whatever happens, keep moving. Get through it. Choose to live. </p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Clay Jensen (13 Reasons Why)</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center p-3">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/lucifer.jpg');">
+                </div>
+                <div class="col-sm-9 p-3">
+                  <p style="font-size:25px; font-family: Montserrat;color:black">Sometimes we are what we are, and we should embrace that.</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Lucifer</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center p-3">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/sidnei.jpg');">
+                </div>
+                <div class="col-sm-9 p-3">
+                  <p style="font-size:25px; font-family: Montserrat;color:black">You can play by the rules and still have fun.</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Sidney</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center p-3">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/morty.jpg');">
+                </div>
+                <div class="col-sm-9 p-3">
+                  <p style="font-size:25px; font-family: Montserrat;color:black">Nobody exists on purpose, nobody belongs anywhere, everybody's gonna die.</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Morty(Rick & Morty)</small>
                 </div>
               </div>
             </blockquote>
@@ -174,7 +206,7 @@
     </div>
   </div>
 </div>
-
+</div>
 
 <style>
 /* carousel */

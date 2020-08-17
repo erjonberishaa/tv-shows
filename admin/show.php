@@ -41,3 +41,4 @@ while ($row = $result->fetch_assoc()): ?>
         <?php endwhile ?>   
 </div>
 </section>
+</section>

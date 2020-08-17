@@ -1,5 +1,6 @@
 <?php include'includes/header.php' ?>
-<?php include'includes/topnav.php'?>
+
+<?php include'includes/navbar.php'?>
 
 <?php 
 $mysqli = new mysqli('localhost', 'root', '', 'seriale' ) or die(mysqli_error($mysqli));
@@ -22,9 +23,8 @@ function pre_r( $array ) {
 }
 
 ?>
-
-<section style="background-color: #8EC5FC;
-background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);";
+<div id="content" class="p-4 p-md-5 pt-5 " style="background-color: #97D9DB;">
+<section style="background-color: #white;";
 >
 
 <div class="col-md-12 ">
@@ -52,7 +52,7 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);";
 
     <?php 
         while ($row = $result->fetch_assoc()): ?>
-        <tr style="background-color:#97D9DB;" >
+        <tr style="background-color:#41B3A3;" >
             <td><?php echo $row['id']; ?></td>
             <td><?php echo $row['title']; ?></td>
             <td><?php echo $row['vendi']; ?></td>
@@ -72,9 +72,16 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);";
 
 </table>
 <div style="margin-bottom: 25px;">
-<button class="btn btn-primary"><a class="text-light" href="index.php">Add a new TV Show&raquo;</a></button>
+<button class="btn btn-primary"><a class="text-light" href="indexadmin.php">Add a new TV Show&raquo;</a></button>
 </div>
 </div>
 </div>
 </section>
 </section>
+
+<script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

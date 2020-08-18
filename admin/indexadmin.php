@@ -2,8 +2,8 @@
 <?php include'includes/navbar.php' ?>	
 
 <!-- Page Content  -->
-     
-<?php  
+
+<?php
 $mysqli = new mysqli('localhost', 'root', '', 'seriale') or die(mysqli_error($mysqli));
 
 if (isset($_POST['send'])){
@@ -56,7 +56,7 @@ if (isset($_POST['send'])){
 
 ?>
 
- <div id="content" class="p-4 p-md-5 pt-5">
+<div id="content" class="p-0 p-md-0 pt-0">
 <section style="padding: 50px 60px; background-image:url('stranger.jpg'); background-repeat:no repeat; height: 629px; background-size: 100% 100%; " >
 <section>
 
@@ -86,12 +86,12 @@ if (isset($_POST['send'])){
       <input type="text" class="form-control" name="vendi" >
     </div>
     <div class="form-group col">
-      <label for="inputEmail4" style="text-shadow: 2px 2px 5px red">Videoja</label>
+      <label for="inputEmail4" style="text-shadow: 2px 2px 5px red">Video Link</label>
       <input type="text" class="form-control" name="src" >
     </div>
 
     <div class="form-group col">
-      <label for="inputPassword4" style="text-shadow: 2px 2px 5px red">Release Data</label>
+      <label for="inputPassword4" style="text-shadow: 2px 2px 5px red">Release Date</label>
       <input type="date" class="form-control" name="date">
     </div>
   </div>

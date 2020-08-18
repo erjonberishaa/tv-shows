@@ -1,4 +1,5 @@
 <?php include'includes/header.php'; ?>
+<?php include'includes/navbar.php' ?>	
 
 <?php 
 if(isset($_GET['edit'])){
@@ -22,6 +23,7 @@ if(isset($_GET['edit'])){
  }
 ?>
 
+<div id="content" class="p-0 p-md-0 pt-0">
 <section style="padding: 50px 60px; background-image:url('breaking.jpg'); background-repeat:no repeat; height: 629px; background-size: 100% 100%; " >
 <section>
 
@@ -71,3 +73,10 @@ if(isset($_GET['edit'])){
         </div>
     </div>
 </section>
+
+<script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -11,7 +11,8 @@ if (isset($_POST['send'])){
     $title = $_POST['title'];
     $vend = $_POST['vendi'];
     $date = $_POST['date'];
-	$description = $_POST['description'];
+    $src = $_POST['src'];	
+    $description = $_POST['description'];
 	
     $name = $_FILES['file']['name'];
     $target_dir = "./uploads/";
@@ -29,29 +30,29 @@ if (isset($_POST['send'])){
        // Upload file
 	   move_uploaded_file($_FILES['file']['tmp_name'],$target_dir.$name);}
 	   
-       $v_name = $_FILES['video']['name'];
-	   $target_dir = "./uploadsvideo/";
+//        $v_name = $_FILES['video']['name'];
+// 	   $target_dir = "./uploadsvideo/";
 	   
-	   $target_file = $target_dir . basename($_FILES["video"]["name"]);
+// 	   $target_file = $target_dir . basename($_FILES["video"]["name"]);
 	   
-         // Select file type
-  $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+//          // Select file type
+//   $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 
-  // Valid file extensions
-  if($imageFileType != "mp4" && $imageFileType != "avi" && $imageFileType != "mov" && $imageFileType != "3gp" && $imageFileType != "mpeg")
- {
-  echo "File Format Not Suppoted";
- }else{
-  move_uploaded_file($_FILES["video"]["tmp_name"],$target_dir.$v_name);
+//   // Valid file extensions
+//   if($imageFileType != "mp4" && $imageFileType != "avi" && $imageFileType != "mov" && $imageFileType != "3gp" && $imageFileType != "mpeg")
+//  {
+//   echo "File Format Not Suppoted";
 
-   $hello = $mysqli->query("INSERT INTO `shows` (title, vendi, date, description, image, `video`) VALUES ('$title', '$vend', '$date', '$description', '$name', '$v_name' )");
+//  }else{
+//   move_uploaded_file($_FILES["video"]["tmp_name"],$target_dir.$v_name);
+
+   $hello = $mysqli->query("INSERT INTO `shows` (title, vendi, date, description, image, src) VALUES ('$title', '$vend', '$date', '$description', '$name', '$src' )");
      if($hello){
 	  echo "poban";
 	  
 	  header ('location: indexadmin.php');
      }
  }
-}
 
 ?>
 
@@ -85,6 +86,11 @@ if (isset($_POST['send'])){
       <input type="text" class="form-control" name="vendi" >
     </div>
     <div class="form-group col">
+      <label for="inputEmail4" style="text-shadow: 2px 2px 5px red">Videoja</label>
+      <input type="text" class="form-control" name="src" >
+    </div>
+
+    <div class="form-group col">
       <label for="inputPassword4" style="text-shadow: 2px 2px 5px red">Release Data</label>
       <input type="date" class="form-control" name="date">
     </div>
@@ -97,10 +103,10 @@ if (isset($_POST['send'])){
       <label for="image" style="text-shadow: 2px 2px 5px red">Choose image</label>
       <input type="file" class="form-control" name="file" id="image">
 	</div>
-	<div class="form-group">
+	<!-- <div class="form-group">
       <label for="file" style="text-shadow: 2px 2px 5px red">Choose video</label>
       <input type="file" class="form-control" name="video" id="video">
-    </div>
+    </div> -->
   <div style="padding-left: 5px;" class="form-row">
   <div class="form-group">
   </div>
@@ -110,7 +116,7 @@ if (isset($_POST['send'])){
     </div>
 </section>
 
-      </div>
+    </div>
 		</div>
 
     <script src="js/jquery.min.js"></script>

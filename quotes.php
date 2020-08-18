@@ -201,6 +201,20 @@
               </div>
             </blockquote>
           </div>
+          <!-- Quote 2 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center p-3">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/michael.jpg');">
+                </div>
+                <div class="col-sm-9 p-3">
+                  <p style="font-size:25px; font-family: Montserrat;color:black">Not all deaths are the same.</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Michael (Prison Break)</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
         </div>
       </div>                          
     </div>

@@ -46,6 +46,7 @@ function pre_r( $array ) {
             <th>Prodhuesi</th>
             <th>Data</th>
             <th>Pershkrimi</th>
+            <th>Movie SRC </th>
             <th colspan="1">Veprimi</th>
         </tr>
     </thead>
@@ -58,6 +59,7 @@ function pre_r( $array ) {
             <td><?php echo $row['vendi']; ?></td>
             <td><?php echo $row['date']; ?></td>
             <td><?php echo $row['description']; ?></td>
+            <td><?php echo $row['src']; ?></td>
     <td>
     <a href="allshows.php?delete= <?php echo $row['id']; ?>"
         class="btn btn-danger">Delete</a>

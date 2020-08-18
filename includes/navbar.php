@@ -23,12 +23,20 @@
   </a>
 
   <a href="suggestions.php" class="navbar-brand">
-    <span class="text-uppercase font-weight-bold">Suggestions</span>    
-      </a>
-     
+    <span class="text-uppercase font-weight-bold">TV Shows Suggestions</span>    
+      </a>     
 
       <a href="quotes.php" class="navbar-brand">
-    <span class="text-uppercase font-weight-bold">Quotes</span>    
+    <span class="text-uppercase font-weight-bold">TV Shows Quotes</span>
+
+    <a href="moviesuggestions.php" class="navbar-brand">
+    <span class="text-uppercase font-weight-bold">Movies Suggestions</span>    
+      </a>
+    
+      <a href="moviequote.php" class="navbar-brand">
+    <span class="text-uppercase font-weight-bold">Movies Quotes</span>    
+      </a>  
+
       </a> 
       </div>
       </div>

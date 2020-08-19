@@ -66,7 +66,7 @@ if (isset($_POST['send'])){
 
 <div class="row">
             <div class="text-center text-light">
-            <h1 style="text-shadow: 2px 2px 5px red">Add a New TV Show</h1>
+            <h1 style="text-shadow: 2px 2px 5px red">Add a New Movie or TV Show</h1>
             </div>
 </div>
 </div>

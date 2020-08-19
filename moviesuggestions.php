@@ -61,7 +61,7 @@ a:hover {
 }
  
 .movie_list {
-    margin-top: 5rem;
+    margin-top: -1rem;
     padding-left: 4rem !important;
 }
  
@@ -85,46 +85,62 @@ a:hover {
     border-top-right-radius: 10px;
 }
  
-.breakingbad {
-    background: url("assets/images/moviecover4.jpg");
+.avengers {
+    background: url("assets/images/avengers.jpg");
     background-size: cover;
 }
  
-.lcdp {
-    background: url("assets/images/cover2.jpg");
+.mrbean {
+    background: url("assets/images/mrbean.jpg");
     background-size: cover;
 }
-.pb {
-    background: url("assets/images/cover3.jpg");
+.mile {
+    background: url("assets/images/mile1.jpg");
     background-size: cover;
     href:
 }
-.got {
-    background: url("assets/images/cover4.jpg");
+.babydriver {
+    background: url("assets/images/babydriver.jpg");
     background-size: cover;
 }
-.vikings {
-    background: url("assets/images/cover5.jpg");
+.homealone {
+    background: url("assets/images/homealone.jpg");
     background-size: cover;
 }
-.friends {
-    background: url("assets/images/cover6.jpg");
+.slumdog {
+    background: url("assets/images/slumdog.jpg");
     background-size: cover;
 }
-.dark {
-    background: url("assets/images/cover7.jpg");
+.hachi {
+    background: url("assets/images/hachi.jpg");
     background-size: cover;
 }
-.sherlock {
-    background: url("assets/images/coveri.jpg");
+.whiplash {
+    background: url("assets/images/whiplash.jpeg");
     background-size: cover;
 }
-.saul {
-    background: url("assets/images/cover9.jpg");
+.gbook {
+    background: url("assets/images/gbook.png");
     background-size: cover;
 }
-.sopranos {
-    background: url("assets/images/cover10.jpg");
+.papillon {
+    background: url("assets/images/papillon.png");
+    background-size: cover;
+}
+.alita {
+    background: url("assets/images/alita.png");
+    background-size: cover;
+}
+.escape {
+    background: url("assets/images/escape.png");
+    background-size: cover;
+}
+.kingkong {
+    background: url("assets/images/kingkong.jpg");
+    background-size: cover;
+}
+.stars {
+    background: url("assets/images/stars.jpg");
     background-size: cover;
 }
  
@@ -262,285 +278,397 @@ a:hover {
  
                         <div class="row">
  
-                            <!-- Breaking Bad -->
+                            <!-- 2 Gisht Mjalte -->
                             <div class="card-view">
-                                <div class="card-header breakingbad">
+                                <div class="card-header avengers">
                                     <div class="card-header-icon">
                                     </div>
                                 </div>
  
                                 <div class="card-movie-content">
                                     <div class="card-movie-content-head">
-                                        <a href="https://www.amc.com/shows/breaking-bad--18">
-                                            <h3 class="card-movie-title">2 Gisht Mjalte</h3>
-                                        </a>
-                                        <div class="ratings"><span>9.5</span>/10</div>
-                                    </div>
-                                    <div class="card-movie-info">
-                                        <div class="movie-running-time">
-                                            <label style="color:black;">Date Released</label>
-                                            <span>20.01.2008</span>
-                                        </div>
-                                        <div class="movie-running-time">
-                                            <label style="color:black;">Number of episodes</label>
-                                            <span>63</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Breaking Bad -->
-
-                            <!-- LCDP -->
-                            <div class="card-view">
-                                <div class="card-header lcdp">
-                                    <div class="card-header-icon">
-                                    </div>
-                                </div>
- 
-                                <div class="card-movie-content">
-                                    <div class="card-movie-content-head">
-                                        <a href="https://www.netflix.com/bg/title/80192098">
-                                            <h3 class="card-movie-title">I ❤ Tropoja</h3>
+                                        <a href="https://vidcloud9.com/streaming.php?id=MjUzOTgx&title=Avengers%3A+Endgame+-+Full+HD&typesub=SUB&sub=L2F2ZW5nZXJzLWVuZGdhbWUvYXZlbmdlcnMtZW5kZ2FtZS52dHQ=&cover=Y292ZXIvYXZlbmdlcnMtZW5kZ2FtZS5wbmc=">
+                                            <h3 class="card-movie-title">Avengers:End Game</h3>
                                         </a>
                                         <div class="ratings"><span>8.4</span>/10</div>
                                     </div>
                                     <div class="card-movie-info">
                                         <div class="movie-running-time">
                                             <label style="color:black;">Date Released</label>
-                                            <span>02.05.2017</span>
+                                            <span>26.04.2019</span>
                                         </div>
                                         <div class="movie-running-time">
-                                            <label style="color:black;">Number of episodes</label>
-                                            <span>32</span>
+                                            <label style="color:black;">Length</label>
+                                            <span>3h 1min</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- LCDP -->
+                            <!-- 2 Gisht Mjalte -->
 
-                            <!-- Peaky Blinders -->
+                            <!-- Shok -->
                             <div class="card-view">
-                                <div class="card-header pb">
+                                <div class="card-header mrbean">
                                     <div class="card-header-icon">
                                     </div>
                                 </div>
  
                                 <div class="card-movie-content">
                                     <div class="card-movie-content-head">
-                                        <a href="https://peakyblinders.tv/">
-                                            <h3 class="card-movie-title">Peaky Blinders</h3>
+                                        <a href="//vidcloud9.com/streaming.php?id=MjIwNg==&title=Mr.+Bean%27s+Holiday+HD-720p&typesub=SUB&sub=L21yLWJlYW5zLWhvbGlkYXktZGRtL21yLWJlYW5zLWhvbGlkYXktZGRtLnZ0dA==&cover=L21yLWJlYW5zLWhvbGlkYXktZGRtL2NvdmVyLnBuZw==">
+                                            <h3 class="card-movie-title">Mr.Bean's Holiday</h3>
                                         </a>
-                                        <div class="ratings"><span>8.8</span>/10</div>
-                                    </div>
-                                    <div class="card-movie-info">
-                                        <div class="movie-running-time">
-                                            <label style="color:black;" >Date Released</label>
-                                            <span>12.09.2013</span>
-                                        </div>
-                                        <div class="movie-running-time">
-                                            <label style="color:black;">Number of episodes</label>
-                                            <span>37</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Peaky Blinders -->
-
-                            <!-- Game of Thrones -->
-                            <div class="card-view">
-                                <div class="card-header got">
-                                    <div class="card-header-icon">
-                                    </div>
-                                </div>
- 
-                                <div class="card-movie-content">
-                                    <div class="card-movie-content-head">
-                                        <a href="#">
-                                            <h3 class="card-movie-title">Game of Thrones</h3>
-                                        </a>
-                                        <div class="ratings"><span>9.3</span>/10</div>
+                                        <div class="ratings"><span>6.4</span>/10</div>
                                     </div>
                                     <div class="card-movie-info">
                                         <div class="movie-running-time">
                                             <label style="color:black;">Date Released</label>
-                                            <span>17.04.2011</span>
+                                            <span>24.08.2007</span>
                                         </div>
                                         <div class="movie-running-time">
-                                            <label style="color:black;">Number of episodes</label>
-                                            <span>73</span>
+                                            <label style="color:black;">Length</label>
+                                            <span>1h 30mins</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Game of Thrones -->
+                            <!-- Shok -->
 
-                            <!-- Vikings -->
+                            <!-- 8 mile -->
                             <div class="card-view">
-                                <div class="card-header vikings">
+                                <div class="card-header mile">
                                     <div class="card-header-icon">
                                     </div>
                                 </div>
  
                                 <div class="card-movie-content">
                                     <div class="card-movie-content-head">
-                                        <a href="https://www.history.com/shows/vikings">
-                                            <h3 class="card-movie-title">Vikings</h3>
+                                        <a href="//vidcloud9.com/streaming.php?id=NjgxNg==&title=8+Mile+HD-720p&typesub=SUB&sub=LzgtbWlsZS1oZC03MjBwLzgtbWlsZS1oZC03MjBwLnZ0dA==&cover=LzgtbWlsZS10dmUvY292ZXIucG5n">
+                                            <h3 class="card-movie-title">8 mile</h3>
+                                        </a>
+                                        <div class="ratings"><span>7.1</span>/10</div>
+                                    </div>
+                                    <div class="card-movie-info">
+                                        <div class="movie-running-time">
+                                            <label style="color:black;" >Date Released</label>
+                                            <span>06.11.2002</span>
+                                        </div>
+                                        <div class="movie-running-time">
+                                            <label style="color:black;">Length</label>
+                                            <span>1h 58mins</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 8 mile -->
+
+                            <!-- Baby Driver -->
+                            <div class="card-view">
+                                <div class="card-header babydriver">
+                                    <div class="card-header-icon">
+                                    </div>
+                                </div>
+ 
+                                <div class="card-movie-content">
+                                    <div class="card-movie-content-head">
+                                        <a href="//vidcloud9.com/streaming.php?id=OTY5NjE=&title=Baby+Driver&typesub=SUB&sub=L2JhYnktZHJpdmVyL2JhYnktZHJpdmVyLnZ0dA==&cover=Y292ZXIvYmFieS1kcml2ZXIucG5n">
+                                            <h3 class="card-movie-title">Baby Driver</h3>
+                                        </a>
+                                        <div class="ratings"><span>7.6</span>/10</div>
+                                    </div>
+                                    <div class="card-movie-info">
+                                        <div class="movie-running-time">
+                                            <label style="color:black;">Date Released</label>
+                                            <span>11.02.2017</span>
+                                        </div>
+                                        <div class="movie-running-time">
+                                            <label style="color:black;">Length</label>
+                                            <span>1h 54mins</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Baby Driver -->
+
+                            <!-- Home Alone -->
+                            <div class="card-view">
+                                <div class="card-header homealone">
+                                    <div class="card-header-icon">
+                                    </div>
+                                </div>
+ 
+                                <div class="card-movie-content">
+                                    <div class="card-movie-content-head">
+                                        <a href="//vidcloud9.com/streaming.php?id=NjE2MA==&title=Home+Alone+HD-720p+&typesub=SUB&sub=L2hvbWUtYWxvbmUtcnBjL2hvbWUtYWxvbmUtcnBjLnZ0dA==&cover=L2hvbWUtYWxvbmUtcnBjL2NvdmVyLnBuZw==">
+                                            <h3 class="card-movie-title">Home Alone</h3>
+                                        </a>
+                                        <div class="ratings"><span>7.6</span>/10</div>
+                                    </div>
+                                    <div class="card-movie-info">
+                                        <div class="movie-running-time">
+                                            <label style="color:black;">Date Released</label>
+                                            <span>14.11.1990</span>
+                                        </div>
+                                        <div class="movie-running-time">
+                                            <label style="color:black;">Length</label>
+                                            <span>1h 43mins</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Home Alone -->
+
+                            <!-- Slumdog Millionaire -->
+                            <div class="card-view">
+                                <div class="card-header slumdog">
+                                    <div class="card-header-icon">
+                                    </div>
+                                </div>
+ 
+                                <div class="card-movie-content">
+                                    <div class="card-movie-content-head">
+                                        <a href="//vidcloud9.com/streaming.php?id=NTgzNA==&title=Slumdog+Millionaire+HD-720p&typesub=SUB&sub=L3NsdW1kb2ctbWlsbGlvbmFpcmUtaGQtNzIwcC9zbHVtZG9nLW1pbGxpb25haXJlLWhkLTcyMHAudnR0&cover=L3NsdW1kb2ctbWlsbGlvbmFpcmUtaWN2L2NvdmVyLnBuZw==">
+                                            <h3 class="card-movie-title">Slumdog Millionaire</h3>
+                                        </a>
+                                        <div class="ratings"><span>8</span>/10</div>
+                                    </div>
+                                    <div class="card-movie-info">
+                                        <div class="movie-running-time">
+                                            <label style="color:black;">Date Released</label>
+                                            <span>12.11.2008</span>
+                                        </div>
+                                        <div class="movie-running-time">
+                                            <label style="color:black;">Length</label>
+                                            <span>2h 3mins</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slumdog Millionaire -->
+
+                            <!-- Hachiko -->
+                            <div class="card-view">
+                                <div class="card-header hachi">
+                                    <div class="card-header-icon">
+                                    </div>
+                                </div>
+ 
+                                <div class="card-movie-content">
+                                    <div class="card-movie-content-head">
+                                        <a href="//vidcloud9.com/streaming.php?id=NTI0OQ==&title=Hachiko+A+Dogs+Story+HD-720&typesub=SUB&sub=L2hhY2hpa28tYS1kb2dzLXN0b3J5LXBvay9oYWNoaWtvLWEtZG9ncy1zdG9yeS1wb2sudnR0&cover=L2hhY2hpa28tYS1kb2dzLXN0b3J5LXBvay9jb3Zlci5wbmc=">
+                                            <h3 class="card-movie-title">Hachi: A Dog's Tale</h3>
+                                        </a>
+                                        <div class="ratings"><span>8.1</span>/10</div>
+                                    </div>
+                                    <div class="card-movie-info">
+                                        <div class="movie-running-time">
+                                            <label style="color:black;">Date Released</label>
+                                            <span>08.07.2009</span>
+                                        </div>
+                                        <div class="movie-running-time">
+                                            <label style="color:black;">Length</label>
+                                            <span>1h 33mins</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Hachiko -->
+
+                            <!-- Whiplash -->
+                            <div class="card-view">
+                                <div class="card-header whiplash">
+                                    <div class="card-header-icon">
+                                    </div>
+                                </div>
+ 
+                                <div class="card-movie-content">
+                                    <div class="card-movie-content-head">
+                                        <a href="//vidcloud9.com/streaming.php?id=ODI1Mw==&title=Whiplash+HD-720p+&typesub=SUB&sub=L3doaXBsYXNoLXdpbi93aGlwbGFzaC13aW4udnR0&cover=L3doaXBsYXNoLXdpbi9jb3Zlci5wbmc=">
+                                            <h3 class="card-movie-title">Whiplash</h3>
                                         </a>
                                         <div class="ratings"><span>8.5</span>/10</div>
                                     </div>
                                     <div class="card-movie-info">
                                         <div class="movie-running-time">
                                             <label style="color:black;">Date Released</label>
-                                            <span>03.03.2013</span>
+                                            <span>16.10.2014</span>
                                         </div>
                                         <div class="movie-running-time">
-                                            <label style="color:black;">Number of episodes</label>
-                                            <span>93</span>
+                                            <label style="color:black;">Length</label>
+                                            <span>1h 47mins</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Vikings -->
+                            <!--Whiplash -->
 
-                            <!-- Friends -->
+                            <!-- Green Book -->
                             <div class="card-view">
-                                <div class="card-header friends">
+                                <div class="card-header gbook">
                                     <div class="card-header-icon">
                                     </div>
                                 </div>
  
                                 <div class="card-movie-content">
                                     <div class="card-movie-content-head">
-                                        <a href="https://www.warnerbros.com/tv/friends">
-                                            <h3 class="card-movie-title">Friends</h3>
+                                        <a href="//vidcloud9.com/streaming.php?id=MjMyNTU2&title=Green+Book+&typesub=SUB&sub=L2dyZWVuLWJvb2svZ3JlZW4tYm9vay52dHQ=&cover=Y292ZXIvZ3JlZW4tYm9vay5wbmc=">
+                                            <h3 class="card-movie-title">Green Book</h3>
                                         </a>
-                                        <div class="ratings"><span>8.9</span>/10</div>
+                                        <div class="ratings"><span>8.2</span>/10</div>
                                     </div>
                                     <div class="card-movie-info">
                                         <div class="movie-running-time">
                                             <label style="color:black;">Date Released</label>
-                                            <span>22.09.1994</span>
+                                            <span>21.11.2018</span>
                                         </div>
                                         <div class="movie-running-time">
-                                            <label style="color:black;">Number of episodes</label>
-                                            <span>235</span>
+                                            <label style="color:black;">Length</label>
+                                            <span>2h 10mins</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Friends -->
+                            <!-- Green Book -->
 
-                            <!-- Dark -->
+                            <!-- Papillon -->
                             <div class="card-view">
-                                <div class="card-header dark">
+                                <div class="card-header papillon">
                                     <div class="card-header-icon">
                                     </div>
                                 </div>
  
                                 <div class="card-movie-content">
                                     <div class="card-movie-content-head">
-                                        <a href="https://dark.netflix.io/en">
-                                            <h3 class="card-movie-title">Dark</h3>
+                                        <a href="//vidcloud9.com/streaming.php?id=MjE4MTg0&title=Papillon&typesub=SUB&sub=L3BhcGlsbG9uL3BhcGlsbG9uLnZ0dA==&cover=Y292ZXIvcGFwaWxsb24ucG5n">
+                                            <h3 class="card-movie-title">Papillon</h3>
                                         </a>
-                                        <div class="ratings"><span>8.8</span>/10</div>
+                                        <div class="ratings"><span>7.2</span>/10</div>
                                     </div>
                                     <div class="card-movie-info">
                                         <div class="movie-running-time">
                                             <label style="color:black;">Date Released</label>
-                                            <span>01.12.2017</span>
+                                            <span>27.06.2018</span>
                                         </div>
                                         <div class="movie-running-time">
-                                            <label style="color:black;">Number of episodes</label>
-                                            <span>26</span>
+                                            <label style="color:black;">Length</label>
+                                            <span>2h 13mins</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Dark -->
+                            <!-- Papillon -->
 
-                            <!-- Sherlock -->
+                            <!-- Alita -->
                             <div class="card-view">
-                                <div class="card-header sherlock">
+                                <div class="card-header alita">
                                     <div class="card-header-icon">
                                     </div>
                                 </div>
  
                                 <div class="card-movie-content">
                                     <div class="card-movie-content-head">
-                                        <a href="bbc.co.uk/programmes/b018ttws">
-                                            <h3 class="card-movie-title">Sherlock</h3>
+                                        <a href="//vidcloud9.com/streaming.php?id=MjM5NDE2&title=Alita%3A+Battle+Angel&typesub=SUB&sub=L2FsaXRhLWJhdHRsZS1hbmdlbC9hbGl0YS1iYXR0bGUtYW5nZWwudnR0&cover=Y292ZXIvYWxpdGEtYmF0dGxlLWFuZ2VsLnBuZw==">
+                                            <h3 class="card-movie-title">Alita: Battle Angel</h3>
                                         </a>
-                                        <div class="ratings"><span>9.1</span>/10</div>
+                                        <div class="ratings"><span>7.3</span>/10</div>
                                     </div>
                                     <div class="card-movie-info">
                                         <div class="movie-running-time">
                                             <label style="color:black;">Date Released</label>
-                                            <span>25.07.2017</span>
+                                            <span>14.02.2019</span>
                                         </div>
                                         <div class="movie-running-time">
-                                            <label style="color:black;">Number of episodes</label>
-                                            <span>13</span>
+                                            <label style="color:black;">Length</label>
+                                            <span>2h 2mins</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!--Sherlock -->
+                            <!-- Alita --> 
 
-                            <!-- Better Call Saul -->
+                            <!-- Escape Room -->
                             <div class="card-view">
-                                <div class="card-header saul">
+                                <div class="card-header escape">
                                     <div class="card-header-icon">
                                     </div>
                                 </div>
  
                                 <div class="card-movie-content">
                                     <div class="card-movie-content-head">
-                                        <a href="https://www.amc.com/shows/better-call-saul--16">
-                                            <h3 class="card-movie-title">Better Call Saul</h3>
+                                        <a href="https://vidcloud9.com/streaming.php?id=MjM2Nzg3&title=Escape+Room+%282019%29+&typesub=SUB&sub=L2VzY2FwZS1yb29tLTIwMTkvZXNjYXBlLXJvb20tMjAxOS52dHQ=&cover=Y292ZXIvZXNjYXBlLXJvb20tMjAxOS5wbmc=">
+                                            <h3 class="card-movie-title">Escape Room</h3>
                                         </a>
-                                        <div class="ratings"><span>8.7</span>/10</div>
+                                        <div class="ratings"><span>6.3</span>/10</div>
                                     </div>
                                     <div class="card-movie-info">
                                         <div class="movie-running-time">
                                             <label style="color:black;">Date Released</label>
-                                            <span>08.02.2015</span>
+                                            <span>04.01.2019</span>
                                         </div>
                                         <div class="movie-running-time">
-                                            <label style="color:black;">Number of episodes</label>
-                                            <span>63</span>
+                                            <label style="color:black;">Length</label>
+                                            <span>1h 40mins</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Better Call Saul -->
+                            <!-- Escape Room --> 
 
-                            <!-- The Sopranos -->
+                            <!-- King Kong -->
                             <div class="card-view">
-                                <div class="card-header sopranos">
+                                <div class="card-header kingkong">
                                     <div class="card-header-icon">
                                     </div>
                                 </div>
  
                                 <div class="card-movie-content">
                                     <div class="card-movie-content-head">
-                                        <a href="#">
-                                            <h3 class="card-movie-title">The Sopranos</h3>
+                                        <a href="//vidcloud9.com/streaming.php?id=NDU3Mg==&title=King+Kong+%282005%29+&typesub=SUB&sub=L2tpbmcta29uZy0yMDA1L2tpbmcta29uZy0yMDA1LnZ0dA==&cover=L2tpbmcta29uZy0yMDA1LWJudy9jb3Zlci5wbmc=">
+                                            <h3 class="card-movie-title">King Kong</h3>
                                         </a>
-                                        <div class="ratings"><span>9.2</span>/10</div>
+                                        <div class="ratings"><span>7.2</span>/10</div>
                                     </div>
                                     <div class="card-movie-info">
                                         <div class="movie-running-time">
                                             <label style="color:black;">Date Released</label>
-                                            <span>10.01.1999</span>
+                                            <span>14.12.2005</span>
                                         </div>
                                         <div class="movie-running-time">
-                                            <label style="color:black;">Number of episodes</label>
-                                            <span>9.2</span>
+                                            <label style="color:black;">Length</label>
+                                            <span>3h 10mins</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- The Sopranos -->                           
+                            <!-- King Kong --> 
+
+                            <!-- The Fault in our Stars -->
+                            <div class="card-view">
+                                <div class="card-header stars">
+                                    <div class="card-header-icon">
+                                    </div>
+                                </div>
+ 
+                                <div class="card-movie-content">
+                                    <div class="card-movie-content-head">
+                                        <a href="//vidcloud9.com/streaming.php?id=ODI1NA==&title=The+Fault+In+Our+Stars+HD-720p&typesub=SUB&sub=L3RoZS1mYXVsdC1pbi1vdXItc3RhcnMtZXF1L3RoZS1mYXVsdC1pbi1vdXItc3RhcnMtZXF1LnZ0dA==&cover=L3RoZS1mYXVsdC1pbi1vdXItc3RhcnMtZXF1L2NvdmVyLnBuZw==">
+                                            <h3 class="card-movie-title">The Fault in our stars</h3>
+                                        </a>
+                                        <div class="ratings"><span>7.7</span>/10</div>
+                                    </div>
+                                    <div class="card-movie-info">
+                                        <div class="movie-running-time">
+                                            <label style="color:black;">Date Released</label>
+                                            <span>06.06.2014</span>
+                                        </div>
+                                        <div class="movie-running-time">
+                                            <label style="color:black;">Length</label>
+                                            <span>2h 6mins</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- The Fault in our stars -->                            
                              
                         </div>
                     </div>

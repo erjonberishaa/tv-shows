@@ -28,9 +28,9 @@ while ($row = $result->fetch_assoc()): ?>
 </div>
 
 <div class="row justify-content-center">
-<h2 style="font-size:45px; letter-spacing: 4px; text-shadow: 2px 2px 5px blue;">TV SHOW</h2>
+<h2 style="font-size:45px; letter-spacing: 4px; text-shadow: 2px 2px 5px blue;"><?php echo $row['title'];?></h2>
 </div>
-        <iframe class="embed-responsive embed-responsive-21by9" style=" width:500px; height:300px;" src="<?php echo $row['src']; ?>"></iframe>
+        <iframe class="embed-responsive embed-responsive-21by9" style=" width:500px; height:285px;" src="<?php echo $row['src']; ?>"></iframe>
 
         <tr>
             <h3>ID: <?php echo $row['id']; ?></h3>

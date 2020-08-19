@@ -30,7 +30,7 @@ function pre_r( $array ) {
 <div class="col-md-12 ">
 <div class="row justify-content-center">
 <div class="header">
-    <h2 style="margin-top: 25px; font-size:45px; letter-spacing: 4px; text-shadow: 2px 2px 5px white;"> ALL TV SHOWS </h2>
+    <h2 style="margin-top: 25px; font-size:45px; letter-spacing: 4px; text-shadow: 2px 2px 5px white;"> ALL MOVIES & TV SHOWS </h2>
 </div>
 </div>
 </div>
@@ -46,7 +46,7 @@ function pre_r( $array ) {
             <th>Prodhuesi</th>
             <th>Data</th>
             <th>Pershkrimi</th>
-            <th>Movie SRC </th>
+            <!-- <th>Movie SRC </th> -->
             <th colspan="1">Veprimi</th>
         </tr>
     </thead>
@@ -59,7 +59,7 @@ function pre_r( $array ) {
             <td><?php echo $row['vendi']; ?></td>
             <td><?php echo $row['date']; ?></td>
             <td><?php echo $row['description']; ?></td>
-            <td><?php echo $row['src']; ?></td>
+            <!-- <td><?php echo $row['src']; ?></td> -->
     <td>
     <a href="allshows.php?delete= <?php echo $row['id']; ?>"
         class="btn btn-danger">Delete</a>

@@ -61,7 +61,7 @@ a:hover {
 }
  
 .movie_list {
-    margin-top: 5rem;
+    margin-top: -1rem;
     padding-left: 4rem !important;
 }
  
@@ -97,7 +97,6 @@ a:hover {
 .pb {
     background: url("assets/images/cover3.jpg");
     background-size: cover;
-    href:
 }
 .got {
     background: url("assets/images/cover4.jpg");
@@ -165,7 +164,7 @@ a:hover {
     padding: 18px 18px 24px 18px;
     margin: 0;
 }
- 
+
 .card-movie-content-head,
 .card-movie-info {
     display: table;
@@ -239,7 +238,7 @@ a:hover {
 </style>
 
 <body>
-    
+
 <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' >
 
     <div class="container p-0">
@@ -249,16 +248,13 @@ a:hover {
                             <h1> TV SHOW SUGGESTIONS</h1>
                         </div> -->
 
-                       
-
-
 
 <section  class="p-1" style="background-color: #4e94a4;">
     <div class="titleNetflix1 p-3">
     <h2> TV SHOW SUGGESTIONS</h2>
     </div>
                 <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 movie_list">
-                    <div class="pt-8 pb-2 mb-3 ">                   
+                    <div class="pt-8 pb-2 mb-3 ">          
  
                         <div class="row">
  

@@ -11,24 +11,27 @@ if (isset($_POST['send'])){
     $title = $_POST['title'];
     $vend = $_POST['vendi'];
     $date = $_POST['date'];
-    $src = $_POST['src'];	
+    $src = $_POST['src'];
     $description = $_POST['description'];
 	
     $name = $_FILES['file']['name'];
     $target_dir = "./uploads/";
-	$target_file = $target_dir . basename($_FILES["file"]["name"]);
-	
-    // Select file type
-	$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
-	
-    // Valid file extensions
-	$extensions_arr = array("jpg","jpeg","png","gif");
-	
-    // Check extension
+  	$target_file = $target_dir . basename($_FILES["file"]["name"]);
+  	$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+  	$extensions_arr = array("jpg","jpeg","png","gif");
     if( in_array($imageFileType,$extensions_arr) ){
+     move_uploaded_file($_FILES['file']['tmp_name'],$target_dir.$name);}
+     
 
-       // Upload file
-	   move_uploaded_file($_FILES['file']['tmp_name'],$target_dir.$name);}
+
+
+    $name1 = $_FILES['background']['name'];
+    $target_dir1 = "./uploads-bg/";
+    $target_file1 = $target_dir1 . basename($_FILES["background"]["name"]);
+    $imageFileType1 = strtolower(pathinfo($target_file1,PATHINFO_EXTENSION));
+    $extensions_arr1 = array("jpg","jpeg","png","gif");
+    if( in_array($imageFileType1,$extensions_arr1) ){
+	   move_uploaded_file($_FILES['background']['tmp_name'],$target_dir1.$name1);}
 	   
 //        $v_name = $_FILES['video']['name'];
 // 	   $target_dir = "./uploadsvideo/";
@@ -46,7 +49,7 @@ if (isset($_POST['send'])){
 //  }else{
 //   move_uploaded_file($_FILES["video"]["tmp_name"],$target_dir.$v_name);
 
-   $hello = $mysqli->query("INSERT INTO `shows` (title, vendi, date, description, image, src) VALUES ('$title', '$vend', '$date', '$description', '$name', '$src' )");
+   $hello = $mysqli->query("INSERT INTO `shows` (title, vendi, date, description, image, src, background) VALUES ('$title', '$vend', '$date', '$description', '$name', '$src', '$name1' )");
      if($hello){
 	  echo "poban";
 	  
@@ -102,6 +105,10 @@ if (isset($_POST['send'])){
   <div class="form-group">
       <label for="image" style="text-shadow: 2px 2px 5px red">Choose image</label>
       <input type="file" class="form-control" name="file" id="image">
+	</div>
+  <div class="form-group">
+      <label for="background" style="text-shadow: 2px 2px 5px red">Choose background</label>
+      <input type="file" class="form-control" name="background" id="background">
 	</div>
 	<!-- <div class="form-group">
       <label for="file" style="text-shadow: 2px 2px 5px red">Choose video</label>

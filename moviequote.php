@@ -38,11 +38,11 @@
             <blockquote>
               <div class="row ">
                 <div class="col-sm-3 text-center p-3">
-                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/nedstarki.jpg');">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/john.jpg');">
                 </div>
                 <div class="col-sm-9 p-3 ">
-                  <p style="font-size:25px; font-family: Montserrat; color:black">I'm gonna make him an offer he can't refuse.</p>
-                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-The Godfather (Ned Stark)</small>
+                  <p style="font-size:25px; font-family: Montserrat; color:black">No matter what anybody tells you, words and ideas can change the world.</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-John Keating (Dead Poet Society)</small>
                 </div>
               </div>
             </blockquote>
@@ -52,11 +52,11 @@
             <blockquote>
               <div class="row">
                 <div class="col-sm-3 text-center p-3">
-                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/ww.jpg');">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/david.jpg');">
                 </div>
                 <div class="col-sm-9 p-3">
-                  <p style="font-size:25px; font-family: Montserrat; color:black;">They may take our lives, but they'll never take our freedom!</p>
-                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black;">-Braveheart</small>
+                  <p style="font-size:25px; font-family: Montserrat; color:black;">Big Things have Small beginnings!</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black;">-David (Prometheus)</small>
                 </div>
               </div>
             </blockquote>
@@ -66,11 +66,11 @@
             <blockquote>
               <div class="row">
                 <div class="col-sm-3 text-center p-3">
-                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/hs.jpg');">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/edie.jpg');">
                 </div>
                 <div class="col-sm-9 p-3">
-                  <p style="font-size:25px; font-family: Montserrat;color:black">I don't have friends. I got family.</p>
-                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Furious 7</small>
+                  <p style="font-size:25px; font-family: Montserrat;color:black">It’s the magic of risking everything for a dream that nobody sees but you.</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Eddie Scrap-Iron Dupris (Million Dollar Baby)</small>
                 </div>
               </div>
             </blockquote>
@@ -80,11 +80,11 @@
             <blockquote>
               <div class="row">
                 <div class="col-sm-3 text-center p-3">
-                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/ch.jpg');">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/vito.jpg');">
                 </div>
                 <div class="col-sm-9 p-3">
-                  <p style="font-size:25px; font-family: Montserrat;color:black">Just keep swimming.</p>
-                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Finding Nemo</small>
+                  <p style="font-size:25px; font-family: Montserrat;color:black">I’m going to make him an offer he can’t refuse.</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Vito Corleone (The Godfather)</small>
                 </div>
               </div>
             </blockquote>
@@ -94,11 +94,11 @@
             <blockquote>
               <div class="row">
                 <div class="col-sm-3 text-center p-3">
-                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/ms.jpg');">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/maximus.jpg');">
                 </div>
                 <div class="col-sm-9 p-3">
-                  <p style="font-size:23px; font-family: Montserrat;color:black">Sometimes I'll start a sentence, and I don't even know where it's going. I just hope I find it along the way.</p>
-                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Michael Scott (The office)</small>
+                  <p style="font-size:23px; font-family: Montserrat;color:black">Falling down is how we grow. Staying down is how we die.</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Maximus (Gladiator)</small>
                 </div>
               </div>
             </blockquote>
@@ -108,11 +108,11 @@
             <blockquote>
               <div class="row">
                 <div class="col-sm-3 text-center p-3">
-                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/sl.jpg');">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/swann.jpg');">
                 </div>
                 <div class="col-sm-9 p-3">
-                  <p style="font-size:25px; font-family: Montserrat;color:black"> Life is beautiful and terrible, all at the same time. But if we're only living part of it, then we're not living at all.</p>
-                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Sara Lance</small>
+                  <p style="font-size:25px; font-family: Montserrat;color:black"> Even a good decision if made for the wrong reasons can be a bad decision. </p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Governor Swann (Pirates of the Caribbean)</small>
                 </div>
               </div>
             </blockquote>
@@ -122,11 +122,11 @@
             <blockquote>
               <div class="row">
                 <div class="col-sm-3 text-center p-3">
-                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/ellie.jpg');">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/billy.jpg');">
                 </div>
                 <div class="col-sm-9 p-3">
-                  <p style="font-size:25px; font-family: Montserrat;color:black">Every song ends, but is that any reason not to enjoy the music.</p>
-                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Ellie (One Tree Hill)</small>
+                  <p style="font-size:25px; font-family: Montserrat;color:black">Hard work may not always result in success, but it will never result in regret.</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">- Billy Beane (Money Ball)</small>
                 </div>
               </div>
             </blockquote>
@@ -136,11 +136,11 @@
             <blockquote>
               <div class="row">
                 <div class="col-sm-3 text-center p-3">
-                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/hg.jpg');">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/samantha.jpg');">
                 </div>
                 <div class="col-sm-9 p-3">
-                  <p style="font-size:25px; font-family: Montserrat;color:black">We’re all alone. That’s why we have friends. To make the loneliness easier to take.</p>
-                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-HollyGibney</small>
+                  <p style="font-size:25px; font-family: Montserrat;color:black">The heart’s not like a box that gets filled up – It expands in size the more you love.</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Samantha (Her)</small>
                 </div>
               </div>
             </blockquote>
@@ -150,11 +150,11 @@
             <blockquote>
               <div class="row">
                 <div class="col-sm-3 text-center p-3">
-                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/cj.jpg');">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/dan.jpg');">
                 </div>
                 <div class="col-sm-9 p-3">
-                  <p style="font-size:25px; font-family: Montserrat;color:black">Whatever happens, keep moving. Get through it. Choose to live. </p>
-                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Clay Jensen (13 Reasons Why)</small>
+                  <p style="font-size:25px; font-family: Montserrat;color:black">Second chances are rare. You ought to take better advantage of them. </p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Dan (Half Nelson)</small>
                 </div>
               </div>
             </blockquote>
@@ -164,11 +164,11 @@
             <blockquote>
               <div class="row">
                 <div class="col-sm-3 text-center p-3">
-                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/lucifer.jpg');">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/mind.jpg');">
                 </div>
                 <div class="col-sm-9 p-3">
-                  <p style="font-size:25px; font-family: Montserrat;color:black">Sometimes we are what we are, and we should embrace that.</p>
-                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Lucifer</small>
+                  <p style="font-size:25px; font-family: Montserrat;color:black">Find a truly original idea. It is the only way I will ever distinguish myself.</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-John Nash (A beautiful mind)</small>
                 </div>
               </div>
             </blockquote>
@@ -178,11 +178,11 @@
             <blockquote>
               <div class="row">
                 <div class="col-sm-3 text-center p-3">
-                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/sidnei.jpg');">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/franc.jpg');">
                 </div>
                 <div class="col-sm-9 p-3">
-                  <p style="font-size:25px; font-family: Montserrat;color:black">You can play by the rules and still have fun.</p>
-                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Sidney</small>
+                  <p style="font-size:25px; font-family: Montserrat;color:black">The loudest one in the room is the weakest one in the room</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Frank Lucas (American Gangster)</small>
                 </div>
               </div>
             </blockquote>
@@ -192,11 +192,11 @@
             <blockquote>
               <div class="row">
                 <div class="col-sm-3 text-center p-3">
-                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/morty.jpg');">
+                  <img class="img-circle" style="width: 150px;height:150px; background-image:url('assets/images/yoda.jpg');">
                 </div>
                 <div class="col-sm-9 p-3">
-                  <p style="font-size:25px; font-family: Montserrat;color:black">Nobody exists on purpose, nobody belongs anywhere, everybody's gonna die.</p>
-                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Morty(Rick & Morty)</small>
+                  <p style="font-size:25px; font-family: Montserrat;color:black">Do, or do not. There is no try.</p>
+                  <small style="font-size:15px; font-family: Montserrat; font-style:italic;color:black">-Yoda (Star Wars)</small>
                 </div>
               </div>
             </blockquote>

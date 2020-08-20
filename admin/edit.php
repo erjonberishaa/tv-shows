@@ -49,11 +49,11 @@ if(isset($_GET['edit'])){
   </div>
   <div class="form-row">
     <div class="form-group col">
-      <label for="inputEmail4" style="text-shadow: 2px 2px 5px blue";>Vendi</label>
+      <label for="inputEmail4" style="text-shadow: 2px 2px 5px blue";>Network</label>
       <input type="text" class="form-control" class="form-control" value="<?php echo $row['vendi'];?>" name="vendi" >
     </div>
     <div class="form-group col">
-      <label for="inputEmail4" style="text-shadow: 2px 2px 5px blue">Videoja</label>
+      <label for="inputEmail4" style="text-shadow: 2px 2px 5px blue">Video Link</label>
       <input type="text" class="form-control" class="form-control" value="<?php echo $row['src'];?>" name="src" >
     </div>
     <div class="form-group col">

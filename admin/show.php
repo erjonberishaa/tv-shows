@@ -15,7 +15,7 @@ if(isset($_GET['show'])){
 
 
 <div id="content" class="p-0 p-md-0 pt-0">
-<section style="padding: 50px 60px; background-image:url('simpsons.jpg'); background-repeat:no repeat; height: 629px; background-size: 100% 100%; " >
+<section style="padding: 50px 60px; background-image:url('show.jpg'); background-repeat:no repeat; height: 733px; background-size: 100% 100%; " >
 
 <div style="color:white;" class="container">
 
@@ -27,8 +27,10 @@ while ($row = $result->fetch_assoc()): ?>
 </div>
 
 <div class="row justify-content-center">
-<h2 style="font-size:45px; letter-spacing: 4px; text-shadow: 2px 2px 5px blue;">TV SHOW</h2>
+<h2 style="font-size:45px; letter-spacing: 4px; text-shadow: 2px 2px 5px blue;"><?php echo $row['title'];?></h2>
 </div>
+
+<iframe class="embed-responsive embed-responsive-21by9" style=" width:500px; height:285px;" src="<?php echo $row['src']; ?>"></iframe>
         <tr>
             <h3>ID: <?php echo $row['id']; ?></h3>
             <h3>Title: <?php echo $row['title']; ?></h3>
@@ -36,10 +38,13 @@ while ($row = $result->fetch_assoc()): ?>
             <h3>Date: <?php echo $row['date']; ?></h3>
             <h3>Description: <?php echo $row['description']; ?></h3>
         </td>
+
+        <div style="margin-bottom: 10px;">
         <a href="edit.php?edit=<?php echo $row['id']; ?>"
         class="btn btn-primary">Edit</a>
         <a href="allshows.php?delete= <?php echo $row['id']; ?>"
         class="btn btn-danger">Delete</a>
+        </div>
 
         <?php endwhile ?>   
 </div>

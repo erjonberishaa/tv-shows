@@ -251,7 +251,7 @@ a:hover {
 
 <section  class="p-1" style="background-color: #4e94a4;">
     <div class="titleNetflix1 p-3">
-    <h2> TV SHOW SUGGESTIONS</h2>
+    <h2> TV SHOWS SUGGESTIONS</h2>
     </div>
                 <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 movie_list">
                     <div class="pt-8 pb-2 mb-3 ">          

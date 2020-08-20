@@ -12,7 +12,7 @@
 
 <body>
 <nav class="navbar navbar-expand-md bg-info navbar-dark ">
-  <ul style="margin-left:100px;" class="navbar-nav">
+  <ul style="margin-left:110px;" class="navbar-nav">
   <a href="home.php" class="navbar-brand">
     <img src="assets/images/movie.png" width="45" alt="" class="d-inline-block align-middle mr-2">
   </a>

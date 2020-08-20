@@ -29,7 +29,7 @@ function pre_r( $array ) {
     <?php while ($row = $result->fetch_assoc()): ?>
       
     <!-- Card -->
-<div style="background:#F5DEB3" class="card card-cascade wider col-md-3 m-2 p-2">
+<div style="background:#C9DAEA" class="card card-cascade wider col-md-3 m-2 p-2">
 <!-- Card image -->
 <div class="view view-cascade overlay" >
   <img class="card-img-top"  src="./admin/uploads/<?php  echo $row['image']; ?>"
@@ -46,7 +46,7 @@ function pre_r( $array ) {
   <h4 class="card-title"><strong><?php echo $row['title']; ?></strong></h4>
   <!-- Text -->
   <p class="card-text"> <?php echo $row['description']; ?></p>
-  <button class="btn btn-primar"><a href="showuser.php?show=<?php echo $row['id']; ?>"
+  <button class="btn btn-primar"><a href="showmovie.php?show=<?php echo $row['id']; ?>"
   class="btn btn-light">Show</a></button>
 </div>
 </div>

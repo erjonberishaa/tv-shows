@@ -6,17 +6,20 @@ if(isset($_GET['show'])){
 
     $mysqli = new mysqli('localhost', 'root', '', 'seriale') or die(mysqli_error($mysqli));
     $result = $mysqli->query("SELECT * FROM `shows` WHERE id='$show_id'") or die($mysqli->error);
+    $row = $result->fetch_assoc();
 }
 ?>
-<style>
-/* body{
-    background-image:url('assets/images/simpsons2.jpg'); background-repeat:no repeat; height: 100%; background-size: 100% 100%; object-fit:cover; 
-} */
 
+<!-- <style>
 body{
-    background-color: #4e94a4
+    padding: 50px 60px; background-image:url('assets/images/avatar.jpg'); background-repeat:no repeat; height: 629px; background-size: 100% 100%;"
+    /* background-image:url('assets/images/avatar.jpg'); background-repeat:no repeat; height: 629px; background-size: 100% 100%; object-fit:cover;  */
 }
-</style>
+/* body{
+    background-color: #4e94a4
+} */
+</style> -->
+<section style="padding: 50px 60px;z-index:40; background-image:url('./admin/uploads-bg/<?php  echo $row['background']; ?>'); background-repeat:no repeat; height: 629px; background-size: 100% 100%; " >
 
 <div style="color:white;" class="container">
 
@@ -24,7 +27,7 @@ body{
 <?php
 $url = htmlspecialchars($_SERVER['HTTP_REFERER']);
 echo "<a href='$url'> &laquo Go back </a>"; 
-while ($row = $result->fetch_assoc()): ?>
+?>
 </div>
 
 <div class="row justify-content-center">
@@ -37,10 +40,10 @@ while ($row = $result->fetch_assoc()): ?>
             <h3>Title: <?php echo $row['title']; ?></h3>
             <h3>Network: <?php echo $row['vendi']; ?></h3>
             <h3>Date: <?php echo $row['date']; ?></h3>
-            <h3>Description: <?php echo $row['description']; ?></h3>            
+            <h3>Description: <?php echo $row['description']; ?></h3>   
             </video>
         </td>
-        <?php endwhile ?>   
+      
 </div>
 
 </section>

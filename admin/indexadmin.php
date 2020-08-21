@@ -81,34 +81,34 @@ if (isset($_POST['send'])){
     <form action="" method="POST" enctype="multipart/form-data">
     <div class="form-group">
     <label for="title" style="text-shadow: 2px 2px 5px red";>Title</label>
-    <input type="text" class="form-control" name="title" >
+    <input required type="text" class="form-control" name="title" value='<?php echo isset($_POST['title']) ? $_POST['title'] : ""; ?>'  >
   </div>
   <div class="form-row">
     <div class="form-group col">
       <label for="inputEmail4" style="text-shadow: 2px 2px 5px red">Network</label>
-      <input type="text" class="form-control" name="vendi" >
+      <input required type="text" class="form-control" name="vendi" value='<?php echo isset($_POST['vendi']) ? $_POST['vend'] : ""; ?>' >
     </div>
     <div class="form-group col">
       <label for="inputEmail4" style="text-shadow: 2px 2px 5px red">Video Link</label>
-      <input type="text" class="form-control" name="src" >
+      <input required type="text" class="form-control" name="src" value='<?php echo isset($_POST['src']) ? $_POST['src'] : ""; ?>'  >
     </div>
 
     <div class="form-group col">
       <label for="inputPassword4" style="text-shadow: 2px 2px 5px red">Release Date</label>
-      <input type="date" class="form-control" name="date">
+      <input required type="date" class="form-control" name="date" value='<?php echo isset($_POST['date']) ? $_POST['date'] : ""; ?>' >
     </div>
   </div>
   <div class="form-group">
     <label for="inputAddress2" style="text-shadow: 2px 2px 5px red">Description </label>
-    <textarea type="text" class="form-control" name="description"></textarea>
+    <textarea required type="text" class="form-control" name="description" value='<?php echo isset($_POST['description']) ? $_POST['description'] : ""; ?>'></textarea>
   </div>
   <div class="form-group">
       <label for="image" style="text-shadow: 2px 2px 5px red">Choose image</label>
-      <input type="file" class="form-control" name="file" id="image">
+      <input required type="file" class="form-control" name="file" id="image" value='<?php echo isset($_POST['image']) ? $_POST['image'] : ""; ?>'>
 	</div>
   <div class="form-group">
       <label for="background" style="text-shadow: 2px 2px 5px red">Choose background</label>
-      <input type="file" class="form-control" name="background" id="background">
+      <input required type="file" class="form-control" name="background" id="background" value='<?php echo isset($_POST['background']) ? $_POST['background'] : ""; ?>'>
 	</div>
 	<!-- <div class="form-group">
       <label for="file" style="text-shadow: 2px 2px 5px red">Choose video</label>

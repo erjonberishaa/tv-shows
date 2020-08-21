@@ -45,11 +45,11 @@
     <span class="text-uppercase font-weight-bold" >HOME</span>
   </a>
 
-  <a href="suggestions.php" class="navbar-brand">
+  <a href="tvshowsuggestions.php" class="navbar-brand">
     <span class="text-uppercase font-weight-bold" style="box-sizing: border-box;">TV Shows Suggestions</span>    
       </a>     
 
-      <a href="quotes.php" class="navbar-brand">
+      <a href="tvshowquotes.php" class="navbar-brand">
     <span class="text-uppercase font-weight-bold">TV Shows Quotes</span>
 
     <a href="moviesuggestions.php" class="navbar-brand">
